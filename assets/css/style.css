@@ -117,7 +117,7 @@ h1 {
 /* welcome */
 
 #welcome {
-    height: 600px;
+    height: 1000px;
 }
 
 #welcome h2, #welcome h3 {
@@ -137,9 +137,6 @@ h1 {
 
 #welcome h3 {
     font-size: 40px;
-}
-
-#welcome h3 {
     padding-top: 80px;
 }
 
@@ -160,4 +157,36 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+/* discover */
+
+#discover {
+    height: 1000px;
+    width: 100%;
+}
+
+#classes h2, #classes h3 {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+#classes h2 {
+    padding-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#classes h3 {
+    padding-top: 80px;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+#classes p {
+    font-size: 25px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    padding-left: 25px;
+    width: 80%;
 }
