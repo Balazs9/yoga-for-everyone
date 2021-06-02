@@ -162,7 +162,7 @@ h1 {
 /* discover */
 
 #discover {
-    height: 1000px;
+    height: 2000px;
     width: 100%;
 }
 
@@ -189,4 +189,37 @@ h1 {
     letter-spacing: 4px;
     padding-left: 25px;
     width: 80%;
+}
+
+#classes h4 {
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+#left {
+    height: 400px;
+    width: 33%;
+    padding-top: 30px;
+    float: left;
+}
+
+#left {
+    background: url(../images/yoga-studio.jpg);
+    width: 67%;
+    padding-top: 30px;
+    float: right;
+}
+
+#right {
+    height: 200px;
+    width: 100%;
+    padding-top: 90px;
+    float: right;
+}
+
+#center {
+    height: 200px;
+    width: 100%;
+    padding-top: 150px;
+    float: left;
 }
