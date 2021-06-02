@@ -162,7 +162,7 @@ h1 {
 /* discover */
 
 #discover {
-    height: 2000px;
+    height: 2500px;
     width: 100%;
 }
 
@@ -196,30 +196,88 @@ h1 {
     font-size: 30px;
 }
 
-#left {
-    height: 400px;
-    width: 33%;
-    padding-top: 30px;
-    float: left;
-}
 
 #left {
-    background: url(../images/yoga-studio.jpg);
-    width: 67%;
+    height: 400px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+#left h4 {
+    padding-left: 30px;
+}
+
+#left p {
+    line-height: 40px;
+    width: 33%;
+    padding-left: 70px;
+    float: left;
+}
+#studio {
+    line-height: 40px;
+    width: 700px;
+    height: 400px;
     padding-top: 30px;
     float: right;
+    padding-left: 500px;
+    background: url(../images/yogastudio.jpg) no-repeat center center;
+    
 }
 
 #right {
-    height: 200px;
+    height: 400px;
     width: 100%;
     padding-top: 90px;
+}
+
+#right h4 {
+    text-align: right;
+    padding-top: 90px;
+    padding-right: 130px;
+    
+}
+
+#right p {
+    width: 33%;
+    padding-right: 170px;
     float: right;
+    text-align: right;
+}
+
+#mountain {
+    line-height: 40px;
+    width: 700px;
+    height: 400px;
+    padding-top: 90px;
+    float: left;
+    padding-left: 300px;
+    background: url(../images/woman-on-mountain.jpg) no-repeat center center;
+    
 }
 
 #center {
-    height: 200px;
+    height: 400px;
     width: 100%;
     padding-top: 150px;
     float: left;
+}
+
+#center h4 {
+    padding-left: 30px;
+}
+
+#center p {
+    width: 33%;
+    padding-left: 70px;
+    float: left;
+}
+
+#online {
+    line-height: 40px;
+    width: 700px;
+    height: 400px;
+    padding-top: 30px;
+    float: right;
+    padding-left: 500px;
+    background: url();
 }
