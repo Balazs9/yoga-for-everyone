@@ -32,7 +32,7 @@ h1 {
 /* navigations links */
 
 #menu {
-    font-size: 100%;
+    font-size: 200%;
     letter-spacing: 4px;
 }
 
@@ -258,12 +258,13 @@ h1 {
 #center {
     height: 400px;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 70px;
     float: left;
 }
 
 #center h4 {
     padding-left: 30px;
+    padding-top: 30px;
 }
 
 #center p {
@@ -279,5 +280,5 @@ h1 {
     padding-top: 30px;
     float: right;
     padding-left: 500px;
-    background: url();
+    background: url(../images/yoga-mat.jpg);
 }
