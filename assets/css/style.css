@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Lato; sans-serif;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: black;
 }
@@ -17,7 +17,7 @@ body {
 /* headings and logo */
 
 h1 {
-    font-family: Roboto; sans-serif;
+    font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #2c353a;
@@ -96,7 +96,7 @@ h1 {
 
 #cover-text {
     font-size: 130%;
-    font-family: roboto; sans-serif;
+    font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
 
