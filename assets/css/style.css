@@ -282,3 +282,41 @@ h1 {
     padding-left: 500px;
     background: url(../images/yoga-mat.jpg);
 }
+
+/* style to sign-up.html */
+
+.sign-in-section {
+    clear: left;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    color: black;
+    background: url(../images/../images/yogastudio.jpg) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-form {
+    clear: left;
+    margin: 150px 10% 0 0;
+    background-color: ;
+    max-width: 400px;
+    float: inline-start;
+    text-align: center;
+    background-color: #d1c29e;
+    position: absolute;
+    margin: 150px 20% 0 0;
+    left: 20%;
+    padding: 30px;
+}
+
+.sign-in-section > label {
+    background-color: transparent;
+    color: black;
+    width: 100%;
+    height: 30px;
+    margin: 5px 0 20px o;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+

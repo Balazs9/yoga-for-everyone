@@ -17,16 +17,16 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a href="sign-in.html">Sign Up/ Log In</a>
+                    <a href="sign-in.html" class="active">Sign Up/ Log In</a>
                 </li>
                 <li>
-                    <a href="connect.html" class="active">Connect</a>
+                    <a href="connect.html">Connect</a>
                 </li>
                 <li>
                     <a href="index.html">Discover</a>
                 </li>
                 <li>
-                    <a href="#index.html">About Yoga</a>
+                    <a href="index.html">About Yoga</a>
                 </li>
                 <li>
                     <a href="index.html">Home</a>
@@ -34,7 +34,22 @@
             </ul>
         </nav>
     </header>
-    
+    <section class="sign-in-section">
+        <form action="https://yoga-for-everyone.net/" method="POST" class="singup-form">
+            
+        <h2>If you are new, please sign up</h2>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="last_name" required>
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" required>
+            <input type="submit" value="Sign Up">
+            
+    </form> 
+
+    </section>
+   
 
     <script src="https://kit.fontawesome.com/134b89db0f.js" crossorigin="anonymous"></script>
 </body>
