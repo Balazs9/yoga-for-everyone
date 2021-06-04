@@ -35,17 +35,21 @@
         </nav>
     </header>
     <section class="sign-in-section">
-        <form action="https://yoga-for-everyone.net/" method="POST" class="singup-form">
+        <form action="https://yoga-for-everyone.net/" method="POST" class="signup-form">
             
-        <h2>If you are new, please sign up</h2>
+        <h2>If you are new, please sign up and choose your preference</h2>
             <label for="fname">First Name</label>
-            <input id="fname" type="text" name="first_name" required>
+            <input id="fname" type="text" name="first_name"  class="text-style" required>
             <label for="lname">Last Name</label>
-            <input id="lname" type="text" name="last_name" required>
+            <input id="lname" type="text" name="last_name" class="text-style" required>
             <label for="email">Email Address</label>
-            <input id="email" type="email" name="email_address" required>
+            <input id="email" type="email" name="email_address" class="text-style" required>
+           
+            <label for="hatha">Hatha Yoga</label>
+            <input id="hatha" type="radio" name="yoga-preference" value="hatha">
+            <label for="kundalini">Kundalini Yoga</label>
+            <input id="kundalini" type="radio" name="yoga-preference" value="kundalini">
             <input type="submit" value="Sign Up">
-            
     </form> 
 
     </section>

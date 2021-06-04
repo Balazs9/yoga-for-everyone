@@ -288,10 +288,8 @@ h1 {
 .sign-in-section {
     clear: left;
     height: 900px;
-    width: 100%;
-    overflow: hidden;
     color: black;
-    background: url(../images/../images/yogastudio.jpg) no-repeat center center;
+    background: url(../images/../images/yogastudio.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -299,24 +297,27 @@ h1 {
 .signup-form {
     clear: left;
     margin: 150px 10% 0 0;
-    background-color: ;
-    max-width: 400px;
-    float: inline-start;
-    text-align: center;
-    background-color: #d1c29e;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 500px;    
     position: absolute;
     margin: 150px 20% 0 0;
-    left: 20%;
+    left: 10%;
     padding: 30px;
 }
 
-.sign-in-section > label {
+.text-style {
     background-color: transparent;
     color: black;
     width: 100%;
     height: 30px;
-    margin: 5px 0 20px o;
+    margin: 5px 0 20px 0;
     border: 1px solid black;
     border-radius: 2px;
 }
+
+.text-style:hover {
+    border-color: #f2e2d2;
+}
+
+
 
