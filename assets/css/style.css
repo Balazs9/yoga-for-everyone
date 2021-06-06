@@ -348,9 +348,10 @@ h1 {
     font-size: 30px;
     line-height: 40px;
 }
-br {
-    padding: 10px;
+hr {
+    display: none;
 }
+
 .log-in-form {
     clear: left;
     margin: 150px 10% 0 0;
@@ -360,6 +361,27 @@ br {
     
     left: 10%;
     padding: 30px;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+#social-network {
+    text-align: center;
+}
+
+#social-network > li {
+    display: inline;
+}
+
+#social-network i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #221b21;
 }
 
 
