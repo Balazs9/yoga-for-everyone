@@ -392,6 +392,32 @@ footer {
     color: #221b21;
 }
 
+
+/* connect.html */
+
+#connect-form {
+    clear: left;
+    height: 900px;
+    color: #f2e2d2;
+    background: url(../images/../images/yogastudio.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.schedule {
+    padding-left: 40px;
+    text-align: left;
+    letter-spacing: 4px;
+}
+
+.connect-form h3 {
+    padding: 20px;
+}
+
+
+
 /* screen size 1200px and down */
 
 @media screen and (max-width: 1200px){
