@@ -293,6 +293,7 @@ h1 {
     background-size: cover;
     background-position: center;
     font-size: 30px;
+    line-height: 40px;
 }
 
 .signup-form {
@@ -323,7 +324,7 @@ h1 {
 
 .click {
     margin-top: 20px;
-    border-radius: 5%;
+    border-radius: 8px;
     padding: 15px 30px 15px 30px;
     text-align: center;
     font-size: 100%;
@@ -335,7 +336,30 @@ h1 {
 .click:hover {
     background-color: black;
     color: #f2e2d2;
+}
 
+#log-in-section {
+    clear: left;
+    height: 900px;
+    color: #f2e2d2;
+    background: url(../images/../images/yogastudio.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+br {
+    padding: 10px;
+}
+.log-in-form {
+    clear: left;
+    margin: 150px 10% 0 0;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 500px;    
+    position: absolute;
+    
+    left: 10%;
+    padding: 30px;
 }
 
 
