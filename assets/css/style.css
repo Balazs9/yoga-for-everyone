@@ -396,6 +396,35 @@ footer {
 
 /* connect.html */
 
+#start {
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #e1d2b7;
+    clear: both;
+    font-size: 30px;
+    
+}
+
+#first_step h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding: 100px;
+}
+
+#first_step h3 {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: left;
+    padding: 60px;
+}
+
+#first_step p {
+    padding: 80px;
+}
+
 #connect-form {
     clear: left;
     height: 600px;
@@ -404,10 +433,11 @@ footer {
     background-size: cover;
     background-position: center;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 70px;
 }
 
 .schedule {
+    margin: 100px;
     padding-left: 40px;
     text-align: left;
     letter-spacing: 4px;
@@ -426,19 +456,31 @@ footer {
     height: 100px;
 }
 
+#time-table {
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    font-size: 90%;
+}
+
+hr {
+    display: none;
+}
 #plan {
     height: 900px;
     width: 100%;
-    background: url(../images/yogastudio.jpg) no-repeat center center;
+    background: url(../images/yogastudio.jpg);
     background-position: center;
     background-size: cover;
-    line-height: 40px;
+    text-align: justify;
     overflow: hidden;
+    position: relative;
 }
 
 #plan h2 {
     font-size: 40px;
     text-align: center;
+    line-height: 80px;
+    padding: 80px;
 }
 
 #plan-box {
@@ -450,16 +492,14 @@ footer {
     text-align: center;
     border: 2px solid transparent;
     border-radius: 80px 50px 80px 50px;
-    padding: 30px 0 0 10px;
+    padding: 100px;
     margin-left: 50px;
     float: left;
     position: relative;      
 }
 
 .select_plan {
-
-    margin: auto;
-    
+    margin: auto;    
     border-radius: 8px;
     padding: 15px 30px 15px 30px;
     text-align: center;
@@ -467,6 +507,7 @@ footer {
     background-color: #f2e2d2;
     color: black;
     display: block;
+    margin: 80px;
 }
 
 .select_plan:hover {
