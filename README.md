@@ -31,3 +31,4 @@
 ++Footer is also visible in every page and has the social media icons with links.
 ++
 +
+![nav bar](Nav bar and hero image Screenshot.png)
