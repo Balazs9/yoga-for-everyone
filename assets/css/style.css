@@ -550,7 +550,11 @@ hr {
 
 /* screen size 1200px and down */
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
+    body {
+        width: 100%;
+        margin: 0;
+    }
 
     
     #welcome {
@@ -586,14 +590,71 @@ hr {
     }
 
     #plan {
-        height: 900px;
-        width: 350px;
+        height: auto;
+        max-width: 100%;
         background: url(../images/yogastudio.jpg);
         background-position: center;
-        background-size: cover;
+        background-size: 100% 100%;
         text-align: justify;
         overflow: hidden;
         position: relative;
+    }
+
+    #plan-box {
+        
+        color: #fff;
+        width: 20%;
+        height: 300px;
+        background-color: rgba(60, 60, 60, 0.6);
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 80px 50px 80px 50px;
+        padding: 100px;
+        margin-left: 50px;
+        float: left;
+        position: relative;      
+    }
+    
+    #plan-box-two {
+        
+        color: #fff;
+        width: 20%;
+        height: 300px;
+        background-color: rgba(60, 60, 60, 0.6);
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 80px 50px 80px 50px;
+        padding: 100px;
+        margin-left: 50px;
+        float: left;
+        position: relative;      
+    }
+    
+    #plan-box-three {
+        
+        color: #fff;
+        width: 20%;
+        height: 300px;
+        background-color: rgba(60, 60, 60, 0.6);
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 80px 50px 80px 50px;
+        padding: 100px;
+        margin-left: 50px;
+        float: left;
+        position: relative;      
+    }
+
+    .select_plan {
+      
+        border-radius: 8px;
+        padding: 15px 30px 15px 30px;
+        text-align: center;
+        
+        background-color: #f2e2d2;
+        color: black;
+        display: block;
+        margin: 50px;
     }
 }
 
@@ -651,6 +712,29 @@ hr {
 
     hr {
         display: none;
+    }
+
+    #plan {
+        height: auto;
+        max-width: 100%;
+        background: url(../images/yogastudio.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: justify;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .select_plan {
+      
+        border-radius: 8px;
+        padding: 15px 30px 15px 30px;
+        text-align: center;
+        
+        background-color: #f2e2d2;
+        color: black;
+        display: block;
+        margin: 50px;
     }
 }
 
