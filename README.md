@@ -66,3 +66,20 @@ b.Returning user:
 ++Footer is also visible in every page and has the social media icons with links.
 
 ![sign-in](assets/images/sign-in.png)
+
+
+##Testing
+
+###I used w3c html validator:
+
+####index.html: No errors or warning to show.
+
+####connect.html: 
+
+-error messages:
+
+![error](assets/images/error-connect.png)
+
+-no error messages after correcting: removed duplicet id and input lines
+
+![no error](assets/images/no-error.png)
