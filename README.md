@@ -43,7 +43,7 @@ b.Returning user:
 
 -Connect
 
--Sig-in
+-Sign-in
 
 ###The landing page: it will contain a navigation bar which will be visible in all the other two pages too. The the hero image, this picture is everything about balance, soul and body training it is about yoga. It is followed by a Welcome section with a short inrtoduction about yoga and with two small sections included in the About yoga part, which will have a direct link from the navbar too. In this section the visitor can read about two different yoga type plus both of them have a link to wikipedia where they can see more deep informations. The next part is Discover, with a direct link also from the navbar, the begining here is about how to start and how to choose. Than after that short introductions about what kind of classes available and how and where can they practice the one what they choose. All three options have direct link to the second page what is called connect, where is more informations about plans and pricing, also to choose skill levels and yoga style.
 
@@ -93,3 +93,9 @@ b.Returning user:
 -no error message after correcting, correct letter, and remove /
 
 ![no error](assets/images/no-error-sign-in.png)
+
+###Jigsaw validator for the css file
+
+style.css file: no error or warning message
+
+[jigsaw css validator](https://jigsaw.w3.org/css-validator)
