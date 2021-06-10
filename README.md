@@ -31,4 +31,4 @@
 ++Footer is also visible in every page and has the social media icons with links.
 ++
 +
-![nav bar](../assets/images/Nav-bar.png)
+![nav bar](assets/images/Nav-bar.png)
