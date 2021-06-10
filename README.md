@@ -64,3 +64,5 @@ b.Returning user:
 
 ###Sign-in: where there is an option to register or if is already a client than log in.
 ++Footer is also visible in every page and has the social media icons with links.
+
+![sign-in](assets/images/sign-in.png)
