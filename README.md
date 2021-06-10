@@ -82,7 +82,9 @@ b.Returning user:
 
 -no error messages after correcting: removed duplicate id and input lines
 
-![no error](assets/images/no-error.png)
+![no error](assets/images/no-error-connect.png)
+
+[w3c validator](https://validator.w3.org/nu/#textarea)
 
 ####sign-in.html
 

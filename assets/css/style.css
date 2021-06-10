@@ -483,6 +483,7 @@ hr {
     padding: 80px;
 }
 
+
 #plan-box {
     font-size: 30px;
     color: #fff;
@@ -497,6 +498,37 @@ hr {
     float: left;
     position: relative;      
 }
+
+#plan-box-two {
+    font-size: 30px;
+    color: #fff;
+    width: 20%;
+    height: 300px;
+    background-color: rgba(60, 60, 60, 0.6);
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 80px 50px 80px 50px;
+    padding: 100px;
+    margin-left: 50px;
+    float: left;
+    position: relative;      
+}
+
+#plan-box-three {
+    font-size: 30px;
+    color: #fff;
+    width: 20%;
+    height: 300px;
+    background-color: rgba(60, 60, 60, 0.6);
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 80px 50px 80px 50px;
+    padding: 100px;
+    margin-left: 50px;
+    float: left;
+    position: relative;      
+}
+
 
 .select_plan {
       
