@@ -80,6 +80,16 @@ b.Returning user:
 
 ![error](assets/images/error-connect.png)
 
--no error messages after correcting: removed duplicet id and input lines
+-no error messages after correcting: removed duplicate id and input lines
 
 ![no error](assets/images/no-error.png)
+
+####sign-in.html
+
+-error messages:
+
+![error](assets/images/error-sign-in.png)
+
+-no error message after correcting, correct letter, and remove /
+
+![no error](assets/images/no-error-sign-in.png)
