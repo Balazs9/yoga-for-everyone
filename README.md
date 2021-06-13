@@ -111,3 +111,27 @@ style.css file: no error or warning message
 
 ####Balsamiq Wireframes for three different screen type
 ![balsamiq wireframes](assets/images/yoga-for-everyone.png)
+
+###Font Awesome:
+
+-Icons in the footer of each site were taken from font awsome
+
+###Wikipedia:
+
+-links to Wikipedia to read more about the yoga styles
+
+###Google Fonts:
+
+-google fonts were used to import Lato and Roboto font into style.css
+
+###Bootstrap 4.4.1:
+
+-was used for screen and website responsiveness
+
+###Git:
+
+-git was used for version control
+
+###Github:
+
+-to store the project code
