@@ -101,3 +101,13 @@ b.Returning user:
 style.css file: no error or warning message
 
 [jigsaw css validator](https://jigsaw.w3.org/css-validator)
+
+##Content
+
+###Wireframe
+
+#####Figma wireframe
+[figma](https://www.figma.com/proto/riVSjbwqPgF0yEbB2yOyYp/Untitled?node-id=2%3A0&scaling=min-zoom)
+
+####Balsamiq Wireframes for three different screen type
+![balsamiq wireframes](assets/images/yoga-for-everyone.png)
