@@ -124,10 +124,6 @@ style.css file: no error or warning message
 
 -google fonts were used to import Lato and Roboto font into style.css
 
-###Bootstrap 4.4.1:
-
--was used for screen and website responsiveness
-
 ###Git:
 
 -git was used for version control

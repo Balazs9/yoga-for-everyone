@@ -12,6 +12,8 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: black;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* headings and logo */
@@ -62,7 +64,7 @@ h1 {
 /* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -122,15 +124,12 @@ h1 {
 
 #welcome h2, #welcome h3 {
     text-align: left;
-    
-    padding-left: 30px;
-    
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 #welcome h2 {
-    padding-top: 40px;
+    padding: 80px;
     font-size: 50px;
     text-align: center;
 }
@@ -138,6 +137,8 @@ h1 {
 #welcome h3 {
     font-size: 40px;
     padding-top: 80px;
+    padding-left: 30px;
+    padding-bottom: 30px;
 }
 
 #welcome p {
@@ -154,6 +155,7 @@ h1 {
     text-align: left;
     width: 50%;
     padding-left: 30px; 
+    padding-bottom: 30px;
     font-size: 30px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -162,22 +164,24 @@ h1 {
 /* discover */
 
 #discover {
-    height: 2500px;
-    width: 100%;
+    height: 2800px;
+    width: 80%;
 }
 
 #classes h2, #classes h3 {
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-weight: bold;
 }
 #classes h2 {
-    padding-top: 40px;
+    padding-top: 100px;
+    padding-bottom: 40px;
     font-size: 50px;
     text-align: center;
 }
 
 #classes h3 {
     padding-top: 80px;
+    padding-bottom: 30px;
     font-size: 40px;
     text-align: left;
     padding-left: 30px;
@@ -198,76 +202,60 @@ h1 {
 
 
 #left {
-    height: 400px;
+    border: 10px;
+    height: 500px;
     width: 100%;
-    padding-top: 30px;
+    padding: 8px;
+    margin: 100px;
+    background: url(../images/yogastudio.jpg) no-repeat;
+    background-position: right;
+    background-size: 50%;
+    
 }
 
 #left h4 {
-    padding-left: 30px;
     text-align: left;
 }
 
 #left p {
     line-height: 40px;
     width: 33%;
-    padding-left: 70px;
     float: left;
 }
 
-#studio {
-    line-height: 40px;
-    width: 700px;
-    height: 400px;
-    padding-top: 30px;
-    float: right;
-    padding-left: 500px;
-    background: url(../images/yogastudio.jpg) no-repeat center center;
-    
-}
-
 #right {
-    height: 400px;
+    height: 500px;
     width: 100%;
-    padding-top: 90px;
-    
+    padding: 8px;
+    margin: 100px;
+    background: url(../images/woman-on-mountain.jpg) no-repeat;
+    background-position: left;
+    background-size: 50%;
 }
 
 #right h4 {
     text-align: right;
-    padding-top: 90px;
-    padding-right: 130px;
-    
-}
+    }
 
 #right p {
     width: 33%;
-    padding-right: 170px;
     float: right;
     line-height: 40px;
-}
-
-#mountain {
-    line-height: 40px;
-    width: 700px;
-    height: 400px;
-    padding-top: 90px;
-    float: left;
-    padding-left: 300px;
-    background: url(../images/woman-on-mountain.jpg) no-repeat center center;
-    
-}
+    }
 
 #center {
-    height: 400px;
+    height: 500px;
     width: 100%;
-    padding-top: 70px;
-    float: left;
+    padding: 8px;
+    margin: 100px;
+    clear: both;
+    background: url(../images/yoga-mat.jpg) no-repeat;
+    background-position: right;
+    background-size: 50%;
 }
 
+
 #center h4 {
-    padding-left: 30px;
-    padding-top: 30px;
     text-align: left;
 }
 
@@ -278,19 +266,6 @@ h1 {
     line-height: 40px;
 }
 
-#online {
-    line-height: 40px;
-    width: 700px;
-    height: 400px;
-    padding-top: 30px;
-    float: right;
-    padding-left: 500px;
-    background: url(../images/yoga-mat.jpg) no-repeat center center;
-}
-
-hr {
-    display: none;
-}
 /* style to sign-up.html */
 
 .sign-in-section {
@@ -372,10 +347,11 @@ hr {
 }
 
 /* footer */
-
+br (
+    display: none;
+)
 footer {
     height: 200px;
-    
 }
 
 #social-network {
@@ -548,12 +524,14 @@ hr {
 }
 
 
-/* screen size 1200px and down */
+
+/* screen size 1300px and down */
 
 @media screen and (max-width: 1300px){
     body {
         width: 100%;
         margin: 0;
+        text-size-adjust: 60%;
     }
 
     
@@ -570,21 +548,17 @@ hr {
         margin: 0 auto;
     }
 
-    #left, #right {
+    #left, #right, #center {
         clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
+        width: 65%;
     }
-
-    #center {
-        clear: both;
+    #left p, #right p, #center p (
         float: left;
-        width: 100%;
-        padding: 0;
-
-    }
-
+        font-size: 15px;
+    )
+    #studio, #mountain, #center (
+        float: right;
+    )
     hr {
         display: none;
     }
@@ -664,6 +638,7 @@ hr {
     body {
         margin: 0;
     }
+
     #menu {
         float: left;
         clear: left;
@@ -687,12 +662,18 @@ hr {
     }
 
     #discover {
-        height: 5000px;
+        height: 5500px;
+        margin: 0 auto;
     }
+
+    #classes p (
+        font-size: 15px;
+    )
 
     #left, #right, #center {
         width: inherit;
         height: inherit;
+        
     }
 
     #left h4, #right h4, #center h4 {
@@ -702,12 +683,13 @@ hr {
 
     #left p, #right p, #center p {
         text-align: center;
-        padding: 0 20px;
-        float: left;
+        padding: o;
+        height: 180px;
     }
 
     #studio, #mountain, #online {
-        width: 300px;
+        width: 100%;
+        
     }
 
     hr {
@@ -735,6 +717,12 @@ hr {
         color: black;
         display: block;
         margin: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
     }
 }
 
