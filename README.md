@@ -1,133 +1,163 @@
-#Yoga-for-everyone
+
+
+# Contents:
+
+1. Introduction
+
+2. UX:
+
+    - User goals
+    
+    - Creator goals
+
+3. Features
+
+4. Issues
+
+5. Technologies
+    
+    - languages used
+
+6. Testing
+
+7. Deployment
+
+8. Credits
+
+# Yoga-for-everyone
 
 Yoga for everyone is a website targeting people with all different skill levels and experience in yoga. Could be anyone who is interested in it, or want to make it part of their life and daily routine. To help everyone to train not just their body, but their mind and soul too. To train in a group where they feel good and calm, to release the stress and charge with positive energie. The site is providing informations about different style of yoga, which can be practiced either online or in our studio sessions. Free your mind, strenghts your body, join us today!
 
-##User Experience
+## User Experience
 
-1.User goals:
+### User goals:
 
-a.First time visitor: 
+1. First time visitor: 
 
--easily understandable site and porpuse of the business
+    - easily understandable site and porpuse of the business
 
--easy navigation
+    - easy navigation
 
--beginners who want to try and learn yoga
+    - beginners who want to try and learn yoga
 
--anyone who already practicing, but would like to improve skills
+    - anyone who already practicing, but would like to improve skills
 
--easy registrations and payment options
+    - easy registrations and payment options
 
-b.Returning user:
+2. Returning user:
 
--yoga is part of their daily routine and they want to continue
+    - yoga is part of their daily routine and they want to continue
 
--they are happy with the group or with the instructor
+    - they are happy with the group or with the instructor
 
--correct pricing
+    - correct pricing
 
--easy well managed, well designed website
-
-
-2.Creators goal:
-
--user friendly website
-
--it will work on all devices
-
--presentation of images on a wide space to introduce and navigate the client
-
-##There will be 3 pages for the site to help the user
-
--The landing page
-
--Connect
-
--Sign-in
-
-###The landing page: it will contain a navigation bar which will be visible in all the other two pages too. The the hero image, this picture is everything about balance, soul and body training it is about yoga. It is followed by a Welcome section with a short inrtoduction about yoga and with two small sections included in the About yoga part, which will have a direct link from the navbar too. In this section the visitor can read about two different yoga type plus both of them have a link to wikipedia where they can see more deep informations. The next part is Discover, with a direct link also from the navbar, the begining here is about how to start and how to choose. Than after that short introductions about what kind of classes available and how and where can they practice the one what they choose. All three options have direct link to the second page what is called connect, where is more informations about plans and pricing, also to choose skill levels and yoga style.
-
-![nav bar](assets/images/Nav-bar.png)
-
-####About yoga from landing page 
-
-![about yoga](assets/images/About-yoga.png)
-
-####Discover from landing page: the section of discover about how to start yoga plus the first part from the next part Classes
-
-![discover](assets/images/discover.png)
+    - easy well managed, well designed website
 
 
-###Connect: also approachable from the navbar. On zhis page, there is a form where clients can choose and decide what and which level and yoga they want in what time frame. Than the plan and pricing section where the available options are.
+### Creators goal:
 
-![connect](assets/images/connect.png)
+1. user friendly website
 
-###Sign-in: where there is an option to register or if is already a client than log in.
-++Footer is also visible in every page and has the social media icons with links.
+2. it will work on all devices
 
-![sign-in](assets/images/sign-in.png)
+3. presentation of images on a wide space to introduce and navigate the client
 
 
-##Testing
+## Features
 
-###I used w3c html validator:
+1. Existing features: 
+    
+    I. on all pages
 
-####index.html: No errors or warning to show.
+    - Fixed navbar: allows user to go over the entire website and find what they looking for, with jump on page
 
-####connect.html: 
+    - Footer: contains social social media icons
 
--error messages:
+    II. Home page:
+
+    ![nav bar](assets/images/Nav-bar.png)
+
+    ![about yoga](assets/images/About-yoga.png)
+
+    ![discover](assets/images/discover.png)
+
+    III. Connect page:
+
+    ![connect](assets/images/connect.png)
+
+    IV. Sign in page:
+
+    ![sign-in](assets/images/sign-in.png)
+
+## Issues
+
+## Technologies:
+
+    - HTML5
+
+    - CSS3
+
+    1. Font Awesome:
+
+        -Icons in the footer of each site were taken from font awsome
+
+    2. Google Fonts:
+
+        -google fonts were used to import Lato and Roboto font into style.css
+
+    3. Git:
+
+        -git was used for version control
+
+    4. Github:
+
+        -to store the project code
+
+    5. Wireframe:
+
+        I. Figma wireframe
+
+[figma](https://www.figma.com/proto/riVSjbwqPgF0yEbB2yOyYp/Untitled?node-id=2%3A0&scaling=min-zoom)
+
+        II. Balsamiq Wireframes for three different screen type
+
+![balsamiq wireframes](assets/images/yoga-for-everyone.png)
+
+    
+
+## Testing
+
+    1. HTML validator:
+
+        I. index.html: No errors or warning to show.
+
+        II. connect.html: 
+
+            -error messages:
 
 ![error](assets/images/error-connect.png)
 
--no error messages after correcting: removed duplicate id and input lines
+            -no error messages after correcting: removed duplicate id and input lines
 
 ![no error](assets/images/no-error-connect.png)
 
 [w3c validator](https://validator.w3.org/nu/#textarea)
 
-####sign-in.html
+       
+        III. sign-in.html:
 
--error messages:
+            -error messages:
 
 ![error](assets/images/error-sign-in.png)
 
--no error message after correcting, correct letter, and remove /
+            -no error message after correcting, correct letter, and remove /
 
 ![no error](assets/images/no-error-sign-in.png)
 
-###Jigsaw validator for the css file
+    
+    2. Jigsaw validator for the CSS file
 
-style.css file: no error or warning message
+            - style.css file: no error or warning message
 
 [jigsaw css validator](https://jigsaw.w3.org/css-validator)
-
-##Content
-
-###Wireframe
-
-#####Figma wireframe
-[figma](https://www.figma.com/proto/riVSjbwqPgF0yEbB2yOyYp/Untitled?node-id=2%3A0&scaling=min-zoom)
-
-####Balsamiq Wireframes for three different screen type
-![balsamiq wireframes](assets/images/yoga-for-everyone.png)
-
-###Font Awesome:
-
--Icons in the footer of each site were taken from font awsome
-
-###Wikipedia:
-
--links to Wikipedia to read more about the yoga styles
-
-###Google Fonts:
-
--google fonts were used to import Lato and Roboto font into style.css
-
-###Git:
-
--git was used for version control
-
-###Github:
-
--to store the project code
