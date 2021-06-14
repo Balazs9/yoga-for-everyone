@@ -12,8 +12,6 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: black;
-    width: 100vw;
-    height: 100vh;
 }
 
 /* headings and logo */
@@ -76,7 +74,7 @@ h1 {
 
 #hero-image {
     width: 100%;
-    height: 100%;
+    height: 800px;
     
     background: url(../images/balance.jpg) no-repeat center center;
 /* animates zoom effect on landing page */
@@ -277,6 +275,8 @@ h1 {
     background-position: center;
     font-size: 30px;
     line-height: 40px;
+    margin-bottom: 100px;
+    
 }
 
 .signup-form {
@@ -321,6 +321,7 @@ h1 {
     color: #f2e2d2;
 }
 
+
 #log-in-section {
     clear: left;
     height: 900px;
@@ -330,10 +331,9 @@ h1 {
     background-position: center;
     font-size: 30px;
     line-height: 40px;
+    margin-top: 100px;
 }
-hr {
-    display: none;
-}
+
 
 .log-in-form {
     clear: left;
@@ -341,15 +341,12 @@ hr {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;    
     position: absolute;
-    
     left: 10%;
     padding: 30px;
 }
 
 /* footer */
-br (
-    display: none;
-)
+
 footer {
     height: 200px;
 }
@@ -552,13 +549,13 @@ hr {
         clear: both;
         width: 65%;
     }
-    #left p, #right p, #center p (
+    #left p, #right p, #center p {
         float: left;
         font-size: 15px;
-    )
-    #studio, #mountain, #center (
+    }
+    #studio, #mountain, #center {
         float: right;
-    )
+    }
     hr {
         display: none;
     }
@@ -666,9 +663,9 @@ hr {
         margin: 0 auto;
     }
 
-    #classes p (
+    #classes p {
         font-size: 15px;
-    )
+    }
 
     #left, #right, #center {
         width: inherit;
@@ -683,7 +680,7 @@ hr {
 
     #left p, #right p, #center p {
         text-align: center;
-        padding: o;
+        padding: 0;
         height: 180px;
     }
 
