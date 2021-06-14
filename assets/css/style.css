@@ -68,7 +68,7 @@ h1 {
 
 #hero-outer {
     height: auto;
-    width: 100%;
+    width: auto;
     overflow: hidden;
     position: relative;
 }
@@ -79,9 +79,11 @@ h1 {
 
 #hero-image {
     margin-top: 115px;
-    width: 100%;
+    clear: left;
     height: 800px;
-    background: url(../images/balance.jpg) no-repeat center center;
+    background: url(../images/balance.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 /* animates zoom effect on landing page */
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -142,8 +144,7 @@ h1 {
 }
 
 #welcome p {
-    text-align: left;
-    padding-left: 25px;
+    text-align: center;
     font-size: 25px;
     font-weight: lighter;
     letter-spacing: 2px;
@@ -202,13 +203,15 @@ h1 {
 #left {
     border: 10px;
     height: 500px;
-    width: 100%;
+    max-width: 100%;
     padding: 8px;
     margin: auto;
     background: url(../images/yogastudio.jpg) no-repeat;
     background-position: right;
     background-size: 50%;
-    
+    align-items: center;
+    justify-content: center;
+
 }
 
 #left h4 {
@@ -499,7 +502,7 @@ hr {
     text-align: center;
     border: 2px solid transparent;
     border-radius: 80px;
-    margin: auto
+    margin: auto;
     position: relative; 
     float: left;     
 }
@@ -530,29 +533,24 @@ hr {
     body {
         width: 100%;
         margin: 0;
-        text-size-adjust: 60%;
     }
 
     
     #welcome {
-        padding: 30px 0;
-        margin: 0;
-        height: 2000px;
-        width: 65%;
+        padding: 30px;
+        margin: auto;
+        height: auto;
     }
 
     #discover {
-        width: 65%;
-        height: 6000px;
-        margin: 0 auto;
+        height: auto;
+        margin: auto;
     }
 
     #left, #right, #center {
         clear: both;
-        width: 65%;
     }
     #left p, #right p, #center p {
-        float: left;
         font-size: 15px;
     }
     #studio, #mountain, #center {
@@ -567,8 +565,8 @@ hr {
         max-width: 100%;
         background: url(../images/yogastudio.jpg);
         background-position: center;
-        background-size: 100% 100%;
-        text-align: justify;
+        background-size:contain;
+        text-align: center;
         overflow: hidden;
         position: relative;
     }
@@ -577,13 +575,12 @@ hr {
         
         color: #fff;
         width: 20%;
-        height: 300px;
+        height: auto;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
-        border-radius: 80px 50px 80px 50px;
-        padding: 100px;
-        margin-left: 50px;
+        border-radius: 80px;
+        margin: auto;
         float: left;
         position: relative;      
     }
@@ -592,13 +589,12 @@ hr {
         
         color: #fff;
         width: 20%;
-        height: 300px;
+        height: auto;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
-        border-radius: 80px 50px 80px 50px;
-        padding: 100px;
-        margin-left: 50px;
+        border-radius: 80px;
+        margin: auto;
         float: left;
         position: relative;      
     }
@@ -607,13 +603,12 @@ hr {
         
         color: #fff;
         width: 20%;
-        height: 300px;
+        height: auto;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
-        border-radius: 80px 50px 80px 50px;
-        padding: 100px;
-        margin-left: 50px;
+        border-radius: 80px;
+        margin: auto;
         float: left;
         position: relative;      
     }
@@ -623,7 +618,6 @@ hr {
         border-radius: 8px;
         padding: 15px 30px 15px 30px;
         text-align: center;
-        
         background-color: #f2e2d2;
         color: black;
         display: block;
@@ -638,31 +632,18 @@ hr {
         margin: 0;
     }
 
-    #menu {
-        float: left;
-        clear: left;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        line-height: 15px;
-        font-size: 60%;
-    }
-    #cover-text {
-        left: 0px;
-    }
-
     #welcome, #discover {
-        width: 90%;
-        margin: 0 auto;        
-        clear: left;
+        width: 95%;
+        margin: auto;
     }
 
     #welcome {
-        height: 3100px;
+        height: auto;
     }
 
     #discover {
-        height: 5500px;
-        margin: 0 auto;
+        height: auto;
+        margin: auto;
     }
 
     #classes p {
@@ -671,7 +652,7 @@ hr {
 
     #left, #right, #center {
         width: inherit;
-        height: inherit;
+        height: auto;
         
     }
 
