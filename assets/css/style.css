@@ -21,10 +21,9 @@ body {
     margin: auto;
     z-index: 100px;
     background: #f2e2d2;
-    width: 100%;
     line-height: 75px;
+    width: 100%;
 }
-
 h1 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
@@ -56,8 +55,9 @@ h1 {
     color: inherit;
 }
 
-#menu a:hover {
+#menu a:hover  {
     border-bottom: 1px solid #221b21;
+    cursor: pointer;
 }
 
 .active {
@@ -70,8 +70,7 @@ h1 {
     height: auto;
     width: auto;
     overflow: hidden;
-    position: relative;
-}
+    }
 
 #cover-text, #cover-text h2 {
     color: #fff;
@@ -537,7 +536,6 @@ hr {
 
     
     #welcome {
-        padding: 30px;
         margin: auto;
         height: auto;
     }
@@ -625,50 +623,40 @@ hr {
     }
 }
 
-/* screen size for 950px and down */
+/* ---------------------------------- screen size for 950px and down */
 
 @media screen and (max-width: 950px){
     body {
-        margin: 0;
+        margin: auto;
+        font-size: 15px;
+        text-align: center;
     }
-
-    #welcome, #discover {
-        width: 95%;
+    #head {
+        position:absolute;
+        font-size: 10px;
         margin: auto;
     }
-
+    #hero-image {
+        background-position: center;
+    }
     #welcome {
         height: auto;
+        width: 95%;
+        margin: auto;
     }
 
     #discover {
         height: auto;
         margin: auto;
-    }
-
-    #classes p {
-        font-size: 15px;
+        width: 95%;
     }
 
     #left, #right, #center {
         width: inherit;
         height: auto;
-        
     }
-
-    #left h4, #right h4, #center h4 {
-        width: 100%;
-        text-align: left;
-    }
-
-    #left p, #right p, #center p {
-        text-align: center;
-        padding: 0;
-        height: 180px;
-    }
-
     #studio, #mountain, #online {
-        width: 100%;
+        background-size: center;
         
     }
 
