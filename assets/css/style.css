@@ -14,7 +14,7 @@ body {
     color: black;
 }
 
-/* headings and logo */
+/*----------------------------------- headings and logo */
 
 #head {
     position: fixed;
@@ -37,7 +37,7 @@ h1 {
     margin-left: 30px;
 }
 
-/* navigations links */
+/*-------------------------------------- navigations links */
 
 #menu {
     font-size: 130%;
@@ -64,7 +64,7 @@ h1 {
     border-bottom: 1px solid #221b21;
 }
 
-/* hero image */
+/*------------------------------------------ hero image */
 
 #hero-outer {
     height: auto;
@@ -83,13 +83,13 @@ h1 {
     background: url(../images/balance.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-/* animates zoom effect on landing page */
+/*----- animates zoom effect on landing page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* creates the level of zoom for hero image */
+/*----- creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
     from {
@@ -115,7 +115,7 @@ h1 {
     position: absolute;
 }
 
-/* welcome */
+/*--------------------------------------------- welcome */
 
 #welcome {
     height: auto;
@@ -159,7 +159,7 @@ h1 {
     letter-spacing: 2px;
 }
 
-/* discover */
+/*---------------------------------------------- discover */
 
 #discover {
     height: auto;
@@ -200,37 +200,35 @@ h1 {
 
 
 #left {
-    border: 10px;
-    height: 500px;
+    border: 10px solid transparent;
+    height: 600px;
     max-width: 100%;
     padding: 8px;
-    margin: auto;
+    margin: 80px;
     background: url(../images/yogastudio.jpg) no-repeat;
     background-position: right;
     background-size: 50%;
-    align-items: center;
-    justify-content: center;
-
-}
-
-#left h4 {
     text-align: center;
 }
 
+#left h4 {
+    text-align: left;
+}
+
 #left p {
-    line-height: 40px;
     width: 33%;
     float: left;
 }
-
 #right {
-    height: 500px;
-    width: 100%;
+    border: 10px solid transparent;
+    height: 600px;
+    max-width: 100%;
     padding: 8px;
-    margin: 100px;
+    margin: 80px;
     background: url(../images/woman-on-mountain.jpg) no-repeat;
     background-position: left;
     background-size: 50%;
+    text-align: center;
 }
 
 #right h4 {
@@ -240,18 +238,17 @@ h1 {
 #right p {
     width: 33%;
     float: right;
-    line-height: 40px;
-    }
-
+}
 #center {
-    height: 500px;
-    width: 100%;
+    border: 20px solid transparent;
+    height: 600px;
+    max-width: 100%;
     padding: 8px;
-    margin: 100px;
-    clear: both;
+    margin: 80px;
     background: url(../images/yoga-mat.jpg) no-repeat;
     background-position: right;
     background-size: 50%;
+    text-align: center;
 }
 
 
@@ -261,12 +258,9 @@ h1 {
 
 #center p {
     width: 33%;
-    padding-left: 70px;
     float: left;
-    line-height: 40px;
 }
-
-/* style to sign-up.html */
+/*------------------------------------------------------ style to sign-up.html */
 
 .sign-in-section {
     clear: left;
@@ -370,16 +364,17 @@ footer {
 }
 
 
-/* connect.html */
+/*------------------------------------------------------- connect.html */
 
 #start {
-    height: 600px;
+    
+    height: auto;
     width: 100%;
     text-align: center;
-    background-position: center;
     background-size: cover;
-    background-color: #e1d2b7;
-    clear: both;
+    background-color: #fff;
+    background-position:center;
+    overflow: hidden;
     font-size: 30px;
     
 }
@@ -462,17 +457,16 @@ hr {
     
     padding: 80px;
 }
-
-
 #plan-box {
-    font-size: 20px;
+    font-size: 25px;
     color: #fff;
     width: 33%;
-    height: 200px;
+    height: 250px;
     background-color: rgba(60, 60, 60, 0.6);
     text-align: center;
     border: 2px solid transparent;
-    border-radius: 80px;
+    border-radius: 80px 80px 80px 80px;
+    padding: 30px;
     margin: auto;
     position: relative; 
     float: left;    
@@ -526,12 +520,12 @@ hr {
 
 
 
-/* screen size 1300px and down */
+/*------------------------------------- screen size 1300px and down */
 
 @media screen and (max-width: 1300px){
     body {
         width: 100%;
-        margin: 0;
+        margin: auto;
     }
 
     
@@ -544,16 +538,10 @@ hr {
         height: auto;
         margin: auto;
     }
-
-    #left, #right, #center {
-        clear: both;
-    }
     #left p, #right p, #center p {
         font-size: 15px;
     }
-    #studio, #mountain, #center {
-        float: right;
-    }
+
     hr {
         display: none;
     }
@@ -623,9 +611,9 @@ hr {
     }
 }
 
-/* ---------------------------------- screen size for 950px and down */
+/* ---------------------------------- screen size for 600px and down */
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 600px){
     body {
         margin: auto;
         font-size: 15px;
@@ -641,23 +629,17 @@ hr {
     }
     #welcome {
         height: auto;
-        width: 95%;
         margin: auto;
     }
 
     #discover {
         height: auto;
         margin: auto;
-        width: 95%;
     }
 
     #left, #right, #center {
-        width: inherit;
         height: auto;
-    }
-    #studio, #mountain, #online {
-        background-size: center;
-        
+        text-align: center;
     }
 
     hr {
@@ -686,11 +668,15 @@ hr {
         display: block;
         margin: 50px;
     }
-}
-
-@media screen and (max-width: 600px) {
-    body {
+    #left {
+        border: 10px solid transparent;
+        height: auto;
         max-width: 100%;
+        padding: auto;
+        margin: auto;
+        background: url(../images/yogastudio.jpg) no-repeat;
+        background-position: center;
+        text-align: center;
     }
 }
 
