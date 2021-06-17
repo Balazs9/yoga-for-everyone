@@ -222,7 +222,6 @@ h1 {
     float: left;
 }
 #left p {
-    width: 33%;
     float: left;
 }
 #right {
@@ -249,12 +248,12 @@ h1 {
     float: right;
 }
 #right p {
-    width: 33%;
     float: right;
 }
 #center{
     border: 2px solid transparent;
     overflow: hidden;
+    text-align: left;
 }
 #online, #yogamat {
     height: 600px;
@@ -263,7 +262,6 @@ h1 {
 #online {
     border-left: 2px solid transparent;
     width: 80%;
-    margin-left: 20px;
     background: url(../images/yoga-mat.jpg) no-repeat;
     background-position: right;
 }
@@ -276,7 +274,6 @@ h1 {
     float: left;
 }
 #center p {
-    width: 33%;
     float: left;
 }
 /*------------------------------------------------------ style to sign-up.html */
@@ -556,6 +553,51 @@ hr {
     #discover {
         height: auto;
         margin: auto;
+    }
+    #studio {
+        background: url(../images/yogastudio.jpg) no-repeat;
+        background-position: right;
+        border-left: 2px solid transparent;
+        width: 100%;
+        margin: 0;
+    }
+    #indoor {
+        background-color: #fff;
+        overflow: hidden;
+        margin: 10px;
+        border: 2px dashed transparent;
+        min-height: 300px;
+        float: left;
+    }
+    #mountain {
+        border-right: 2px solid transparent;
+        background: url(../images/woman-on-mountain.jpg) no-repeat;
+        background-position: left;
+        width: 100%;
+        margin: 0;
+    }
+    #outdoor {
+        background-color: #fff;
+        overflow: hidden;
+        margin: 10px;
+        border: 2px dashed transparent;
+        min-height: 300px;
+        float: right;
+    }
+    #online {
+        border-left: 2px solid transparent;
+        background: url(../images/yoga-mat.jpg) no-repeat;
+        background-position: right;
+        width: 100%;
+        margin: 0;
+    }
+    #yogamat {
+        background-color: #fff;
+        overflow: hidden;
+        margin: 10px;
+        border: 2px dashed transparent;
+        min-height: 300px;
+        float: left;
     }
 
     hr {
