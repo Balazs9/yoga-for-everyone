@@ -18,7 +18,7 @@ body {
 
 #head {
     position: fixed;
-    margin: auto;
+    margin: 1%;
     z-index: 100px;
     background: #f2e2d2;
     line-height: 75px;
@@ -218,7 +218,7 @@ h1 {
     overflow: hidden;
     margin: 10px;
     border: 2px dashed transparent;
-    min-height: 300px;
+    height: auto;
     float: left;
 }
 #left p {
@@ -244,8 +244,8 @@ h1 {
     overflow: hidden;
     margin: 10px;
     border: 2px dashed transparent;
-    min-height: 300px;
     float: right;
+    height: auto;
 }
 #right p {
     float: right;
@@ -253,7 +253,6 @@ h1 {
 #center{
     border: 2px solid transparent;
     overflow: hidden;
-    text-align: left;
 }
 #online, #yogamat {
     height: 600px;
@@ -264,13 +263,14 @@ h1 {
     width: 80%;
     background: url(../images/yoga-mat.jpg) no-repeat;
     background-position: right;
+    margin-left: 20px;
 }
 #yogamat {
     background-color: #fff;
     overflow: hidden;
     margin: 10px;
     border: 2px dashed transparent;
-    min-height: 300px;
+    height: auto;
     float: left;
 }
 #center p {
@@ -361,7 +361,7 @@ h1 {
 /* footer */
 
 footer {
-    height: 200px;
+    margin: 1%;
 }
 
 #social-network {
@@ -543,8 +543,14 @@ hr {
         width: 100%;
         margin: auto;
     }
-
-    
+    #menu {
+        font-size: 80%;
+    }
+    #hero-outer {
+        height: 800px;
+        width: auto;
+        overflow: hidden;
+        }
     #welcome {
         margin: auto;
         height: auto;
@@ -556,7 +562,7 @@ hr {
     }
     #studio {
         background: url(../images/yogastudio.jpg) no-repeat;
-        background-position: right;
+        background-position: center;
         border-left: 2px solid transparent;
         width: 100%;
         margin: 0;
@@ -566,13 +572,13 @@ hr {
         overflow: hidden;
         margin: 10px;
         border: 2px dashed transparent;
-        min-height: 300px;
-        float: left;
+        height: auto;
+        text-align: center;
     }
     #mountain {
         border-right: 2px solid transparent;
         background: url(../images/woman-on-mountain.jpg) no-repeat;
-        background-position: left;
+        background-position: center;
         width: 100%;
         margin: 0;
     }
@@ -581,13 +587,13 @@ hr {
         overflow: hidden;
         margin: 10px;
         border: 2px dashed transparent;
-        min-height: 300px;
-        float: right;
+        height: auto;
+        text-align: center;
     }
     #online {
         border-left: 2px solid transparent;
         background: url(../images/yoga-mat.jpg) no-repeat;
-        background-position: right;
+        background-position: center;
         width: 100%;
         margin: 0;
     }
@@ -596,8 +602,8 @@ hr {
         overflow: hidden;
         margin: 10px;
         border: 2px dashed transparent;
-        min-height: 300px;
-        float: left;
+        height: auto;
+        text-align: center;
     }
 
     hr {
@@ -680,10 +686,35 @@ hr {
     #head {
         position:absolute;
         font-size: 10px;
-        margin: auto;
+        height: auto;
     }
+    #menu {
+        font-size: 80%;
+    }
+    #hero-outer {
+        height: 800px;
+        width: auto;
+        overflow: hidden;
+        }
     #hero-image {
         background-position: center;
+        animation-name: none;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+    #cover-text {
+        font-size: 80%;
+        font-family: roboto, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        width: 400px;
+        height: auto;
+        padding-top: auto;
+        padding-left: 20px;
+        background-color: rgba(90, 60, 60, 0.6);
+        bottom: 300px;
+        position: absolute;
+        right: 0;
     }
     #welcome {
         height: auto;
