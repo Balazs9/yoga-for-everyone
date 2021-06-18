@@ -4,7 +4,7 @@
 
 * {
     margin: auto;
-    padding: 0;
+    padding: auto;
     border: none;
 }
 
@@ -18,7 +18,7 @@ body {
 
 #head {
     position: fixed;
-    margin: 1%;
+    margin: auto;
     z-index: 100px;
     background: #f2e2d2;
     line-height: 75px;
@@ -121,6 +121,7 @@ h1 {
     height: auto;
     margin: auto;
     text-align: center;
+    width: 90%;
 }
 
 #welcome h2, #welcome h3 {
@@ -158,15 +159,20 @@ h1 {
     font-weight: bold;
     letter-spacing: 2px;
 }
-
+#welcome a {
+    color: black;
+}
 /*---------------------------------------------- discover */
 
 #discover {
     height: auto;
     margin: auto;
     text-align: center;
+    width: 90%;
 }
-
+#discover a {
+    color: black;
+}
 #classes h2, #classes h3 {
     letter-spacing: 4px;
     font-weight: bold;
@@ -190,17 +196,18 @@ h1 {
     font-size: 25px;
     font-weight: lighter;
     letter-spacing: 2px;
-    padding-left: 25px;
+    
 }
 
 #classes h4 {
     padding: 80px;
     font-size: 30px;
 }
-
 #left {
     border: 2px solid transparent;
     overflow: hidden;
+    display: inline-flex;
+    margin-left: 10px;
 }
 #studio, #indoor {
     height: 600px;
@@ -208,7 +215,7 @@ h1 {
 }
 #studio {
     background: url(../images/yogastudio.jpg) no-repeat;
-    background-position: right;
+    background-position: center;
     margin-left: 20px;
     width: 80%;
     border-left: 2px solid transparent;
@@ -220,6 +227,7 @@ h1 {
     border: 2px dashed transparent;
     height: auto;
     float: left;
+    width: 20%;
 }
 #left p {
     float: left;
@@ -227,6 +235,7 @@ h1 {
 #right {
     border: 2px solid transparent;
     overflow: hidden;
+    display: inline-flex;
 }
 #outdoor, #mountain {
     height: 600px;
@@ -237,7 +246,7 @@ h1 {
     width: 80%;
     margin-right: 20px;
     background: url(../images/woman-on-mountain.jpg) no-repeat;
-    background-position: left;
+    background-position: center;
 }
 #outdoor {
     background-color: #fff;
@@ -246,6 +255,7 @@ h1 {
     border: 2px dashed transparent;
     float: right;
     height: auto;
+    width: 20%;
 }
 #right p {
     float: right;
@@ -253,6 +263,7 @@ h1 {
 #center{
     border: 2px solid transparent;
     overflow: hidden;
+    display: inline-flex;
 }
 #online, #yogamat {
     height: 600px;
@@ -262,7 +273,7 @@ h1 {
     border-left: 2px solid transparent;
     width: 80%;
     background: url(../images/yoga-mat.jpg) no-repeat;
-    background-position: right;
+    background-position: center;
     margin-left: 20px;
 }
 #yogamat {
@@ -272,9 +283,7 @@ h1 {
     border: 2px dashed transparent;
     height: auto;
     float: left;
-}
-#center p {
-    float: left;
+    width: 20%;
 }
 /*------------------------------------------------------ style to sign-up.html */
 
@@ -536,12 +545,19 @@ hr {
 
 
 
-/*------------------------------------- screen size 1300px and down */
+/*------------------------------------------- screen size 1300px and down */
 
 @media screen and (max-width: 1300px){
     body {
         width: 100%;
         margin: auto;
+    }
+    #head {
+        margin: auto;
+        position: fixed;
+    }
+    #logo {
+        font-size: 90%;
     }
     #menu {
         font-size: 80%;
@@ -555,10 +571,33 @@ hr {
         margin: auto;
         height: auto;
     }
-
     #discover {
         height: auto;
         margin: auto;
+    }
+    #left {
+        border: 2px solid transparent;
+        overflow: hidden;
+        display: unset;
+    }
+    #left p {
+        width: 100%;
+    }
+    #right {
+        border: 2px solid transparent;
+        overflow: hidden;
+        display: unset;
+    }
+    #right p {
+        width: 100%;
+    }
+    #center{
+        border: 2px solid transparent;
+        overflow: hidden;
+        display: unset;
+    }
+    #center p {
+        width: 100%;
     }
     #studio {
         background: url(../images/yogastudio.jpg) no-repeat;
@@ -574,6 +613,7 @@ hr {
         border: 2px dashed transparent;
         height: auto;
         text-align: center;
+        width: 100%;
     }
     #mountain {
         border-right: 2px solid transparent;
@@ -589,6 +629,7 @@ hr {
         border: 2px dashed transparent;
         height: auto;
         text-align: center;
+        width: 100%;
     }
     #online {
         border-left: 2px solid transparent;
@@ -604,6 +645,7 @@ hr {
         border: 2px dashed transparent;
         height: auto;
         text-align: center;
+        width: 100%;
     }
 
     hr {
@@ -684,12 +726,15 @@ hr {
         text-align: center;
     }
     #head {
-        position:absolute;
+        position: fixed;
         font-size: 10px;
         height: auto;
+        line-height: 35px;
     }
     #menu {
-        font-size: 80%;
+        font-size: 65%;
+        letter-spacing: 1px;
+        display: inline-block;
     }
     #hero-outer {
         height: 800px;
@@ -703,7 +748,7 @@ hr {
         animation-fill-mode: forwards;
     }
     #cover-text {
-        font-size: 80%;
+        font-size: 70%;
         font-family: roboto, sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -720,10 +765,34 @@ hr {
         height: auto;
         margin: auto;
     }
-
+    #welcome h2 {
+        font-size: 20px;
+    }
+    #welcome h3, #welcome h4 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    #welcome p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
     #discover {
         height: auto;
         margin: auto;
+    }
+    #discover h2 {
+        font-size: 20px;
+    }
+    #discover h3, #discover h4 {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    #discover p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    #classes h4 {
+        padding: 0;
     }
     #studio {
         float: none;
@@ -764,8 +833,8 @@ hr {
         width: auto;
         margin-left: 0;
         float: none;
+        border: 0;
         background-position: center;
-        text-align: center;
     }
     #yogamat {
         text-align: center;
