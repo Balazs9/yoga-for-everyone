@@ -168,7 +168,7 @@ h1 {
     height: auto;
     margin: auto;
     text-align: center;
-    width: 90%;
+    max-width: 90%;
 }
 #discover a {
     color: black;
@@ -207,7 +207,6 @@ h1 {
     border: 2px solid transparent;
     overflow: hidden;
     display: inline-flex;
-    margin-left: 10px;
 }
 #studio, #indoor {
     height: 600px;
@@ -216,8 +215,7 @@ h1 {
 #studio {
     background: url(../images/yogastudio.jpg) no-repeat;
     background-position: center;
-    margin-left: 20px;
-    width: 80%;
+    width: 100%;
     border-left: 2px solid transparent;
 }
 #indoor {
@@ -226,8 +224,7 @@ h1 {
     margin: 10px;
     border: 2px dashed transparent;
     height: auto;
-    float: left;
-    width: 20%;
+    width: 100%;
 }
 #left p {
     float: left;
@@ -243,22 +240,21 @@ h1 {
 }
 #mountain {
     border-right: 2px solid transparent;
-    width: 80%;
-    margin-right: 20px;
+    width: 100%;
     background: url(../images/woman-on-mountain.jpg) no-repeat;
     background-position: center;
+    background-size: cover;
 }
 #outdoor {
     background-color: #fff;
     overflow: hidden;
     margin: 10px;
     border: 2px dashed transparent;
-    float: right;
     height: auto;
-    width: 20%;
+    width: 100%;
 }
 #right p {
-    float: right;
+    float: left;
 }
 #center{
     border: 2px solid transparent;
@@ -271,10 +267,10 @@ h1 {
 }
 #online {
     border-left: 2px solid transparent;
-    width: 80%;
+    width: 100%;
     background: url(../images/yoga-mat.jpg) no-repeat;
     background-position: center;
-    margin-left: 20px;
+    background-size: cover;
 }
 #yogamat {
     background-color: #fff;
@@ -282,8 +278,10 @@ h1 {
     margin: 10px;
     border: 2px dashed transparent;
     height: auto;
+    width: 100%;
+}
+#center p {
     float: left;
-    width: 20%;
 }
 /*------------------------------------------------------ style to sign-up.html */
 
@@ -367,7 +365,7 @@ h1 {
     padding: 30px;
 }
 
-/* footer */
+/*--------------------------------------------------------- footer */
 
 footer {
     margin: 1%;
@@ -401,6 +399,9 @@ footer {
     overflow: hidden;
     font-size: 30px;
     
+}
+#first_step {
+    height: auto;
 }
 #first_step h2 {
     font-size: 50px;
@@ -475,7 +476,7 @@ hr {
     display: none;
 }
 #plan {
-    height: auto;
+    height: 1000px;
     width: 90%;
     background: url(../images/yogastudio.jpg);
     background-position: center;
@@ -570,7 +571,8 @@ hr {
         font-size: 90%;
     }
     #menu {
-        font-size: 80%;
+        font-size: 70%;
+        letter-spacing: 2px;
     }
     #hero-outer {
         height: 800px;
@@ -661,12 +663,18 @@ hr {
     hr {
         display: none;
     }
-
+    #start {
+        max-width: auto;
+    }
+    #first_step {
+        max-width: 95%;
+        margin-top: 80px;
+    }
     #plan {
         display: block;
         position: relative;
         height: auto;
-        width: 100%;
+        max-width: auto;
         background: url(../images/yogastudio.jpg) no-repeat;
         background-position: center;
         background-size:cover;
@@ -755,7 +763,7 @@ hr {
         line-height: 35px;
     }
     #menu {
-        font-size: 65%;
+        font-size: 63%;
         letter-spacing: 1px;
         display: inline-block;
     }
@@ -873,19 +881,25 @@ hr {
     }
     #start {
         height: auto;
-        width: 90%;
+        max-width: auto;
         text-align: center;
         background-size: cover;
         background-color: #fff;
         background-position:center;
         overflow: hidden;
         font-size: 15px;
+        padding: 10px;
+    }
+    #first_step {
+        width: 95%;
     }
     #first_step h2 {
         font-size: 30px;
         font-weight: bold;
         text-align: center;
-        margin: 20px
+        margin: 20px;
+        margin-top: 80px;
+        padding: 40px;
     }
     #first_step h3 {
         font-size: 20px;
@@ -896,10 +910,57 @@ hr {
     #first_step p {
         margin: 20px
     }
+    #connect-form {
+        clear: left;
+        max-width: auto;
+        height: auto;
+        color: black;
+        background-color: #fff;
+        background-size: cover;
+        background-position: center;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .schedule {
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        text-align: center;
+        letter-spacing: 1px;
+        background-color: #f2e2d2;
+        width: 95%;
+        padding: 20px;
+    }
+    .schedule h2 {
+        margin: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .schedule h3 {
+        text-align: left;
+    }
+    
+    .connect-form h3 {
+        padding: 50px;
+    }
+    
+    .options {
+        text-align: left;
+        padding-left: 30px;
+        height: 100px;
+    }
+    
+    #time-table {
+        padding: 15px 30px 15px 30px;
+        border-radius: 8px;
+        font-size: 90%;
+    }
+    
     #plan {
         position: relative;
         height: auto;
-        width: 100%;
+        max-width: auto;
         background: url(../images/yogastudio.jpg);
         background-position: center;
         background-size: cover;
@@ -912,7 +973,7 @@ hr {
     #plan-box {
         font-size: 15px;
         color: #fff;
-        width: 45%;
+        width: 50%;
         height: 400px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
@@ -926,7 +987,7 @@ hr {
     #plan-box-two {
         font-size: 15px;
         color: #fff;
-        width: 45%;
+        width: 50%;
         height: 400px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
@@ -940,7 +1001,7 @@ hr {
     #plan-box-three {
         font-size: 15px;
         color: #fff;
-        width: 45%;
+        width: 50%;
         height: 400px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
