@@ -392,9 +392,8 @@ footer {
 /*------------------------------------------------------- connect.html */
 
 #start {
-    
     height: auto;
-    width: 100%;
+    width: 90%;
     text-align: center;
     background-size: cover;
     background-color: #fff;
@@ -403,28 +402,24 @@ footer {
     font-size: 30px;
     
 }
-
 #first_step h2 {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     padding: 100px;
 }
-
 #first_step h3 {
     font-size: 40px;
     font-weight: lighter;
     text-align: center;
     padding: 60px;
 }
-
 #first_step p {
     padding: 80px;
 }
-
 #connect-form {
     clear: left;
-    height: 600px;
+    height: 700px;
     color: black;
     background-color: #fff;
     background-size: cover;
@@ -441,6 +436,20 @@ footer {
     letter-spacing: 4px;
     background-color: #f2e2d2;
     width: 800px;
+}
+.pick {
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgba(60, 60, 60, 0.6);
+    color: white;
+    margin: auto;
+}
+.pick:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 .schedule h3 {
     text-align: left;
@@ -467,7 +476,7 @@ hr {
 }
 #plan {
     height: auto;
-    width: 100%;
+    width: 90%;
     background: url(../images/yogastudio.jpg);
     background-position: center;
     background-size: cover;
@@ -475,57 +484,60 @@ hr {
     overflow: hidden;
     position: relative;
 }
-
+.box {
+    display: inline-flex;
+    line-height: 50px;
+}
 #plan h2 {
     font-size: 40px;
     text-align: center;
-    
     padding: 80px;
 }
 #plan-box {
-    font-size: 25px;
+    font-size: 30px;
     color: #fff;
     width: 33%;
-    height: 250px;
+    height: 400px;
     background-color: rgba(60, 60, 60, 0.6);
     text-align: center;
     border: 2px solid transparent;
     border-radius: 80px 80px 80px 80px;
     padding: 30px;
-    margin: auto;
+    margin: 50px;
     position: relative; 
     float: left;    
+    letter-spacing: 1px;
 }
-
 #plan-box-two {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     width: 33%;
-    height: 200px;
+    height: 400px;
     background-color: rgba(60, 60, 60, 0.6);
     text-align: center;
     border: 2px solid transparent;
     border-radius: 80px;
-    margin: auto;
+    margin: 50px;
+    padding: 30px;
     position: relative; 
-    float: left;     
+    float: left;
+    letter-spacing: 1px; 
 }
-
 #plan-box-three {
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     width: 33%;
-    height: 200px;
+    height: 400px;
     background-color: rgba(60, 60, 60, 0.6);
     text-align: center;
     border: 2px solid transparent;
     border-radius: 80px;
-    margin: auto;
+    margin: 50px;
+    padding: 30px;
     position: relative; 
-    float: left;     
+    float: left;  
+    letter-spacing: 1px;   
 }
-
-
 .select_plan {
     border-radius: 8px;
     padding: 15px 30px 15px 30px;
@@ -534,9 +546,7 @@ hr {
     background-color: #f2e2d2;
     color: black;
     display: block;
-    margin: auto;
 }
-
 .select_plan:hover {
     background-color: black;
     color: #f2e2d2;
@@ -653,56 +663,69 @@ hr {
     }
 
     #plan {
+        display: block;
+        position: relative;
         height: auto;
-        max-width: 100%;
-        background: url(../images/yogastudio.jpg);
+        width: 100%;
+        background: url(../images/yogastudio.jpg) no-repeat;
         background-position: center;
-        background-size:contain;
+        background-size:cover;
         text-align: center;
         overflow: hidden;
-        position: relative;
     }
-
+    .box {
+        display: unset;
+        line-height: 50px;
+    }
+    #plan h2 {
+        font-size: 40px;
+        text-align: center;
+        padding: 80px;
+    }
     #plan-box {
-        
+        font-size: 30px;
         color: #fff;
-        width: 20%;
-        height: auto;
+        width: 45%;
+        height: 400px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
-        border-radius: 80px;
-        margin: auto;
-        float: left;
-        position: relative;      
+        border-radius: 80px 80px 80px 80px;
+        padding: 30px;
+        margin: 50px;
+        position: relative; 
+        letter-spacing: 1px;
+        margin-left: 25%;
     }
-    
     #plan-box-two {
-        
+        font-size: 30px;
         color: #fff;
-        width: 20%;
-        height: auto;
+        width: 45%;
+        height: 400px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
         border-radius: 80px;
-        margin: auto;
-        float: left;
-        position: relative;      
+        margin: 50px;
+        padding: 30px;
+        position: relative; 
+        letter-spacing: 1px; 
+        margin-left: 25%;
     }
-    
     #plan-box-three {
-        
+        font-size: 30px;
         color: #fff;
-        width: 20%;
-        height: auto;
+        width: 45%;
+        height: 400px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
         border-radius: 80px;
-        margin: auto;
-        float: left;
-        position: relative;      
+        margin: 50px;
+        padding: 30px;
+        position: relative;  
+        letter-spacing: 1px; 
+        margin-left: 25%;  
     }
 
     .select_plan {
@@ -713,7 +736,7 @@ hr {
         background-color: #f2e2d2;
         color: black;
         display: block;
-        margin: 50px;
+        margin-top: 50px;
     }
 }
 
@@ -848,28 +871,93 @@ hr {
     hr {
         display: none;
     }
-
-    #plan {
+    #start {
         height: auto;
-        max-width: 100%;
+        width: 90%;
+        text-align: center;
+        background-size: cover;
+        background-color: #fff;
+        background-position:center;
+        overflow: hidden;
+        font-size: 15px;
+    }
+    #first_step h2 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px
+    }
+    #first_step h3 {
+        font-size: 20px;
+        font-weight: lighter;
+        text-align: center;
+        margin: 20px
+    }
+    #first_step p {
+        margin: 20px
+    }
+    #plan {
+        position: relative;
+        height: auto;
+        width: 100%;
         background: url(../images/yogastudio.jpg);
         background-position: center;
         background-size: cover;
-        text-align: justify;
+        text-align: center;
         overflow: hidden;
-        position: relative;
     }
-
+    .box {
+        display: unset;
+    }
+    #plan-box {
+        font-size: 15px;
+        color: #fff;
+        width: 45%;
+        height: 400px;
+        background-color: rgba(60, 60, 60, 0.6);
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 80px 80px 80px 80px;
+        padding: 30px;
+        margin: 50px;
+        position: relative; 
+        letter-spacing: 1px;
+    }
+    #plan-box-two {
+        font-size: 15px;
+        color: #fff;
+        width: 45%;
+        height: 400px;
+        background-color: rgba(60, 60, 60, 0.6);
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 80px;
+        margin: 50px;
+        padding: 30px;
+        position: relative; 
+        letter-spacing: 1px; 
+    }
+    #plan-box-three {
+        font-size: 15px;
+        color: #fff;
+        width: 45%;
+        height: 400px;
+        background-color: rgba(60, 60, 60, 0.6);
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 80px;
+        margin: 50px;
+        padding: 30px;
+        position: relative;  
+        letter-spacing: 1px; 
+    }
     .select_plan {
-      
         border-radius: 8px;
         padding: 15px 30px 15px 30px;
         text-align: center;
-        
         background-color: #f2e2d2;
         color: black;
         display: block;
-        margin: 50px;
     }
 }
 
