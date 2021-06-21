@@ -7,14 +7,13 @@
     padding: auto;
     border: none;
 }
-
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: black;
 }
 
-/*----------------------------------- headings and logo */
+/*----------------------------------------------- headings and logo */
 
 #head {
     position: fixed;
@@ -30,52 +29,45 @@ h1 {
     letter-spacing: 4px;
     color: #2c353a;
 }
-
 #logo {
     float: left;
     font-size: 250%;
     margin-left: 30px;
 }
 
-/*-------------------------------------- navigations links */
+/*----------------------------------------------- navigations links */
 
 #menu {
     font-size: 130%;
     letter-spacing: 4px;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover  {
     border-bottom: 1px solid #221b21;
     cursor: pointer;
 }
-
 .active {
     border-bottom: 1px solid #221b21;
 }
 
-/*------------------------------------------ hero image */
+/*----------------------------------------------- hero image */
 
 #hero-outer {
     height: auto;
     width: auto;
     overflow: hidden;
     }
-
 #cover-text, #cover-text h2 {
     color: #fff;
 }
-
 #hero-image {
     margin-top: 115px;
     clear: left;
@@ -115,7 +107,7 @@ h1 {
     position: absolute;
 }
 
-/*--------------------------------------------- welcome */
+/*----------------------------------------------- welcome section*/
 
 #welcome {
     height: auto;
@@ -123,18 +115,15 @@ h1 {
     text-align: center;
     width: 90%;
 }
-
 #welcome h2, #welcome h3 {
     font-weight: bold;
     letter-spacing: 4px;
 }
-
 #welcome h2 {
     padding: 80px;
     font-size: 50px;
     text-align: center;
 }
-
 #welcome h3 {
     font-size: 40px;
     padding-top: 80px;
@@ -142,14 +131,12 @@ h1 {
     padding-bottom: 40px;
     text-align: left;
 }
-
 #welcome p {
     text-align: center;
     font-size: 25px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
-
 #welcome h4 {
     padding-top: 120px;
     text-align: left;
@@ -162,7 +149,7 @@ h1 {
 #welcome a {
     color: black;
 }
-/*---------------------------------------------- discover */
+/*----------------------------------------------- discover */
 
 #discover {
     height: auto;
@@ -183,7 +170,6 @@ h1 {
     font-size: 50px;
     text-align: center;
 }
-
 #classes h3 {
     padding-top: 80px;
     padding-bottom: 30px;
@@ -191,13 +177,11 @@ h1 {
     text-align: left;
     padding-left: 30px;
 }
-
 #classes p {
     font-size: 25px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
-
 #classes h4 {
     padding: 80px;
     font-size: 30px;
@@ -289,7 +273,7 @@ h1 {
     width: 80%;
     text-align: center;
 }
-/*------------------------------------------------------ style to sign-up.html */
+/*----------------------------------------------- style to sign-up.html */
 
 .sign-in-section {
     clear: left;
@@ -360,7 +344,7 @@ h1 {
     padding: 30px;
 }
 
-/*--------------------------------------------------------- footer */
+/*----------------------------------------------- footer */
 
 footer {
     margin: 1%;
@@ -379,7 +363,7 @@ footer {
 }
 
 
-/*------------------------------------------------------- connect.html */
+/*----------------------------------------------- connect.html */
 
 #start {
     height: auto;
@@ -419,7 +403,6 @@ footer {
     font-size: 30px;
     line-height: 70px;
 }
-
 .schedule {
     margin: auto;
     margin-top: 80px;
@@ -541,9 +524,7 @@ hr {
     cursor: pointer;
 }
 
-
-
-/*------------------------------------------- screen size 1300px and down */
+/*----------------------------------------------- screen size 1300px and down */
 
 @media screen and (max-width: 1300px){
     body {
@@ -570,6 +551,7 @@ hr {
         margin: auto;
         height: auto;
     }
+    /*------------------------------------------- discover */
     #discover {
         height: auto;
         margin: auto;
@@ -652,6 +634,7 @@ hr {
         width: 100%;
         display: table-footer-group;
     }
+    /*------------------------------------------- Connect page */
     #start {
         max-width: auto;
     }
@@ -659,6 +642,7 @@ hr {
         max-width: 95%;
         margin-top: 80px;
     }
+    /*------------------------------------------- Plan and pricing */
     #plan {
         display: block;
         position: relative;
@@ -724,7 +708,6 @@ hr {
         letter-spacing: 1px; 
         margin-left: 25%;  
     }
-
     .select_plan {
       
         border-radius: 8px;
@@ -737,7 +720,7 @@ hr {
     }
 }
 
-/* ---------------------------------- screen size for 600px and down */
+/* ------------------------------------------ screen size for 600px and down */
 
 @media screen and (max-width: 600px){
     body {
@@ -752,7 +735,7 @@ hr {
         line-height: 35px;
     }
     #menu {
-        font-size: 63%;
+        font-size: 55%;
         letter-spacing: 1px;
         display: inline-block;
     }
@@ -796,6 +779,7 @@ hr {
         font-size: 15px;
         letter-spacing: 1px;
     }
+    /*------------------------------------------- discover */
     #discover {
         height: auto;
         margin: auto;
@@ -867,10 +851,7 @@ hr {
         text-align: center;
         padding: 5px;
     }
-
-    hr {
-        display: none;
-    }
+    /*------------------------------------------- connect page */
     #start {
         height: auto;
         max-width: auto;
@@ -913,7 +894,6 @@ hr {
         font-size: 15px;
         line-height: 20px;
     }
-    
     .schedule {
         margin: auto;
         margin-top: 80px;
@@ -932,23 +912,19 @@ hr {
     .schedule h3 {
         text-align: left;
     }
-    
     .connect-form h3 {
         padding: 50px;
     }
-    
     .options {
         text-align: left;
         padding-left: 30px;
         height: 100px;
     }
-    
     #time-table {
         padding: 15px 30px 15px 30px;
         border-radius: 8px;
         font-size: 90%;
     }
-    
     #plan {
         position: relative;
         height: auto;
