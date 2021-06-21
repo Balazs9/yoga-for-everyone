@@ -196,7 +196,6 @@ h1 {
     font-size: 25px;
     font-weight: lighter;
     letter-spacing: 2px;
-    
 }
 
 #classes h4 {
@@ -207,6 +206,7 @@ h1 {
     border: 2px solid transparent;
     overflow: hidden;
     display: inline-flex;
+    width: 100%;
 }
 #studio, #indoor {
     height: 600px;
@@ -228,11 +228,14 @@ h1 {
 }
 #left p {
     float: left;
+    width: 80%;
+    text-align: center;
 }
 #right {
     border: 2px solid transparent;
     overflow: hidden;
     display: inline-flex;
+    width: 100%;
 }
 #outdoor, #mountain {
     height: 600px;
@@ -243,7 +246,6 @@ h1 {
     width: 100%;
     background: url(../images/woman-on-mountain.jpg) no-repeat;
     background-position: center;
-    background-size: cover;
 }
 #outdoor {
     background-color: #fff;
@@ -254,12 +256,15 @@ h1 {
     width: 100%;
 }
 #right p {
-    float: left;
+    float: right;
+    width: 80%;
+    text-align: center;
 }
 #center{
     border: 2px solid transparent;
     overflow: hidden;
     display: inline-flex;
+    width: 100%;
 }
 #online, #yogamat {
     height: 600px;
@@ -270,7 +275,6 @@ h1 {
     width: 100%;
     background: url(../images/yoga-mat.jpg) no-repeat;
     background-position: center;
-    background-size: cover;
 }
 #yogamat {
     background-color: #fff;
@@ -282,6 +286,8 @@ h1 {
 }
 #center p {
     float: left;
+    width: 80%;
+    text-align: center;
 }
 /*------------------------------------------------------ style to sign-up.html */
 
@@ -294,21 +300,17 @@ h1 {
     background-position: center;
     font-size: 30px;
     line-height: 40px;
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px;    
 }
-
 .signup-form {
     clear: left;
     margin: 150px 10% 0 0;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;    
     position: absolute;
-    
     left: 10%;
     padding: 30px;
 }
-
 .text-style {
     background-color: transparent;
     color: #f2e2d2;
@@ -319,11 +321,9 @@ h1 {
     border-radius: 2px;
     font-size: 20px;
 }
-
 .text-style:hover {
     border-color: #f2e2d2;
 }
-
 .click {
     margin-top: 20px;
     border-radius: 8px;
@@ -334,14 +334,11 @@ h1 {
     color: black;
     display: block;
 }
-
 .click:hover {
     background-color: black;
     color: #f2e2d2;
     cursor: pointer;
 }
-
-
 #log-in-section {
     clear: left;
     height: 900px;
@@ -353,8 +350,6 @@ h1 {
     line-height: 40px;
     margin-top: 100px;
 }
-
-
 .log-in-form {
     clear: left;
     margin: 150px 10% 0 0;
@@ -370,15 +365,12 @@ h1 {
 footer {
     margin: 1%;
 }
-
 #social-network {
     text-align: center;
 }
-
 #social-network > li {
     display: inline;
 }
-
 #social-network i {
     font-size: 200%;
     margin: 1%;
@@ -397,8 +389,7 @@ footer {
     background-color: #fff;
     background-position:center;
     overflow: hidden;
-    font-size: 30px;
-    
+    font-size: 30px;    
 }
 #first_step {
     height: auto;
@@ -455,23 +446,19 @@ footer {
 .schedule h3 {
     text-align: left;
 }
-
 .connect-form h3 {
     padding: 50px;
 }
-
 .options {
     text-align: left;
     padding-left: 30px;
     height: 100px;
 }
-
 #time-table {
     padding: 15px 30px 15px 30px;
     border-radius: 8px;
     font-size: 90%;
 }
-
 hr {
     display: none;
 }
@@ -587,10 +574,13 @@ hr {
         height: auto;
         margin: auto;
     }
+    #classes h4 {
+        padding: 50px;
+    }
     #left {
         border: 2px solid transparent;
         overflow: hidden;
-        display: unset;
+        display: table;
     }
     #left p {
         width: 100%;
@@ -598,7 +588,7 @@ hr {
     #right {
         border: 2px solid transparent;
         overflow: hidden;
-        display: unset;
+        display: table;
     }
     #right p {
         width: 100%;
@@ -606,7 +596,7 @@ hr {
     #center{
         border: 2px solid transparent;
         overflow: hidden;
-        display: unset;
+        display: table;
     }
     #center p {
         width: 100%;
@@ -626,6 +616,7 @@ hr {
         height: auto;
         text-align: center;
         width: 100%;
+        display: table-footer-group;
     }
     #mountain {
         border-right: 2px solid transparent;
@@ -642,6 +633,7 @@ hr {
         height: auto;
         text-align: center;
         width: 100%;
+        display: table-footer-group;
     }
     #online {
         border-left: 2px solid transparent;
@@ -658,10 +650,7 @@ hr {
         height: auto;
         text-align: center;
         width: 100%;
-    }
-
-    hr {
-        display: none;
+        display: table-footer-group;
     }
     #start {
         max-width: auto;
@@ -823,7 +812,7 @@ hr {
         letter-spacing: 1px;
     }
     #classes h4 {
-        padding: 0;
+        padding: 20px;
     }
     #studio {
         float: none;
@@ -841,6 +830,7 @@ hr {
     #left p {
         width: 95%;
         text-align: center;
+        padding: 5px;
     }
     #mountain {
         border-bottom: 2px solid transparent;
@@ -858,6 +848,7 @@ hr {
     #right p {
         width: 95%;
         text-align: center;
+        padding: 5px;
     }
     #online {
         border-left: 2px solid transparent;
@@ -874,6 +865,7 @@ hr {
     #center p {
         width: 95%;
         text-align: center;
+        padding: 5px;
     }
 
     hr {
