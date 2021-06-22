@@ -442,8 +442,38 @@ footer {
     border-radius: 8px;
     font-size: 90%;
 }
-hr {
-    display: none;
+.table {
+    height: auto;
+    width: 90%;
+    background: rgba(90, 60, 60, 0.6);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid transparent;
+}
+.table h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+#day {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.timing {
+    width: 20%;
+    height: auto;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: #fff;
 }
 #plan {
     height: 1000px;
