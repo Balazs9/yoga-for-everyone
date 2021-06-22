@@ -373,7 +373,7 @@ footer {
     background-color: #fff;
     background-position:center;
     overflow: hidden;
-    font-size: 30px;    
+    font-size: 30px;   
 }
 #first_step {
     height: auto;
@@ -394,23 +394,37 @@ footer {
     padding: 80px;
 }
 #connect-form {
-    clear: left;
-    height: 700px;
+    height: auto;
     color: black;
-    background-color: #fff;
-    background-size: cover;
-    background-position: center;
     font-size: 30px;
     line-height: 70px;
 }
+#meditation, #pref {
+    height: 900px;
+    padding: 8px;
+    margin: 50px;
+}
+#meditation {
+    background: url(../images/yoga-meditation.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: auto;    
+}
+#pref {
+    overflow: hidden;
+    display: inline-flex;
+    width: 90%;
+    border: 2px solid transparent;
+}
 .schedule {
-    margin: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-left: 180px;
     text-align: center;
     letter-spacing: 4px;
     background-color: #f2e2d2;
-    width: 800px;
+    background-size: contain;
+    width: 100%;
 }
 .pick {
     border-radius: 8px;
@@ -445,35 +459,25 @@ footer {
 .table {
     height: auto;
     width: 90%;
-    background: rgba(90, 60, 60, 0.6);
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    position: relative;
     border: 2px solid transparent;
+    margin: 80px;
+    padding: 20px;
 }
 .table h2 {
     font-size: 40px;
     text-align: center;
     padding: 40px;
 }
-#day {
+.table h3 {
     font-size: 30px;
     text-align: center;
-    padding: 10px;
-    letter-spacing: 1px;
 }
-.timing {
-    width: 20%;
-    height: auto;
-    font-size: 20px;
-    text-align: left;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    border-radius: 8px;
-    background: #fff;
+.table h4 {
+    font-size: 25px;
+    text-align: center;
 }
 #plan {
     height: 1000px;
@@ -483,7 +487,6 @@ footer {
     background-size: cover;
     text-align: center;
     overflow: hidden;
-    position: relative;
 }
 .box {
     display: inline-flex;
