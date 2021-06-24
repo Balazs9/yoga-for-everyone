@@ -3,7 +3,7 @@
 
 
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     border: none;
 }
@@ -12,12 +12,15 @@ body {
     font-weight: 300;
     color: black;
 }
-
+hr {
+    display: none;
+}
 /*----------------------------------------------- headings and logo */
 
 #head {
     position: fixed;
-    margin: auto;
+    left: 0;
+    top: 0;
     background: #f2e2d2;
     line-height: 75px;
     width: 100%;
@@ -40,6 +43,8 @@ h1 {
 #menu {
     font-size: 130%;
     letter-spacing: 4px;
+    padding: 0;
+    margin: 0;
 }
 #menu li {
     float: right;
@@ -279,7 +284,7 @@ h1 {
 
 .sign-in-section {
     clear: left;
-    height: 900px;
+    height: 1000px;
     color: #f2e2d2;
     background: url(../images/../images/yogastudio.jpg);
     background-size: cover;
@@ -328,26 +333,7 @@ h1 {
     color: #f2e2d2;
     cursor: pointer;
 }
-#log-in-section {
-    clear: left;
-    height: 900px;
-    color: #f2e2d2;
-    background: url(../images/../images/yogastudio.jpg);
-    background-size: cover;
-    background-position: center;
-    font-size: 30px;
-    line-height: 40px;
-    margin-top: 100px;
-}
-.log-in-form {
-    clear: left;
-    margin: 150px 10% 0 0;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 500px;    
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
+
 
 /*----------------------------------------------- footer */
 
@@ -372,7 +358,7 @@ footer {
 
 #start {
     height: auto;
-    margin: auto;
+    margin: 0;
     width: 90%;
     text-align: center;
     font-size: 30px;
@@ -621,15 +607,6 @@ h2 {
 /*----------------------------------------------- screen size 1200px and down */
 
 @media screen and (max-width: 1200px){
-    body {
-        height: auto;
-        margin: auto;
-    }
-    #head {
-        margin: auto;
-        position: fixed;
-        width: 100%;
-    }
     #logo {
         font-size: 90%;
     }
@@ -733,7 +710,7 @@ h2 {
     /*------------------------------------------- Connect page */
     #start {
         height: auto;
-        margin: auto;
+        margin-top: 90px;
     }
     #connect-form {
         height: auto;
@@ -896,12 +873,10 @@ h2 {
 
 @media screen and (max-width: 600px){
     body {
-        margin: auto;
         font-size: 15px;
         text-align: center;
     }
     #head {
-        position: fixed;
         font-size: 10px;
         height: auto;
         line-height: 35px;
@@ -1023,22 +998,18 @@ h2 {
         width:100%;
         font-size: 10px;
         padding: 10px;
+        margin: 0;
     }
     #first_step h2 {
         font-size: 20px;
         font-weight: bold;
         text-align: center;
-        margin-top: 80px;
-        padding: 40px;
+        padding-top: 90px;
     }
     #first_step h3 {
         font-size: 18px;
         font-weight: lighter;
         text-align: center;
-        margin: 20px
-    }
-    #first_step p {
-        margin: 20px
     }
     #connect-form {
         width: 100%;
@@ -1061,17 +1032,18 @@ h2 {
         letter-spacing: 1px;
         background-color: #f2e2d2;
         width: 100%;
+        margin: 0;
     }
     .schedule h2 {
         margin: 20px;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     .schedule h3 {
         text-align: left;
     }
     .connect-form h3 {
-        padding: 50px;
+        padding: 30px;
     }
     .options {
         text-align: left;
@@ -1087,6 +1059,10 @@ h2 {
         height: auto;
         float: left;
     }
+    #board h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
     #board h3, #board h4 {
         font-size: 15px;
     }
@@ -1101,6 +1077,7 @@ h2 {
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
+        margin: 0;
     }
     .table div {
         width: 80%;
@@ -1166,6 +1143,17 @@ h2 {
         background-color: #f2e2d2;
         color: black;
         display: block;
+    }
+    /*------------------------------------------- Sign up section*/
+    .sign-in-section {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .sign-in-section h2 {
+        font-size: 20px;
+    }
+    .signup-form {
+        position:unset;
     }
 }
 
