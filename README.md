@@ -90,7 +90,20 @@ Yoga for everyone is a website targeting people with all different skill levels 
 
     ![sign-in](assets/images/sign-in.png)
 
+2. Features to implement: 
+
+    - make a Log in page
+
+    - terms and conditions page
+
+
 ## Issues
+
+During the development the issues what needed to be fixed:
+
+1. Align 2 divs side by side: searching for the problem on [https://stackoverflow.com/questions/36152145/align-2-divs-side-by-side-in-a-parent] and there found similar problem with a help, what the developer could use as a navigator to fix the issue.
+
+2. Make the divs screen responsive: found a similar problem on [https://stackoverflow.com/questions/12645366/css-responsive-center-div] and with the help of this was able to find the error what caused the issue.
 
 ## Technologies:
 
@@ -124,7 +137,10 @@ Yoga for everyone is a website targeting people with all different skill levels 
 
 ![balsamiq wireframes](assets/images/yoga-for-everyone.png)
 
-    
+    6. Coolors:
+        Find colors from a wide selection
+        [coolors](https://coolors.co/d496a7-9d695a-78e0dc-8eedf7-a1cdf1)
+
 
 ## Testing
 
@@ -161,3 +177,19 @@ Yoga for everyone is a website targeting people with all different skill levels 
             - style.css file: no error or warning message
 
 [jigsaw css validator](https://jigsaw.w3.org/css-validator)
+
+![error](assets/images/style-error-messages)
+
+            -no error messages after correcting: changed value from auto to numbers
+
+## Credits
+
+1. Pixabay: for the photos what was used for the website
+
+    [https://pixabay.com/]
+
+2. Wikipedia: for the knowledge about Yoga
+
+    Hatha Yoga [https://en.wikipedia.org/wiki/Hatha_yoga]
+
+    Kundalini Yoga [https://en.wikipedia.org/wiki/Kundalini_yoga]
