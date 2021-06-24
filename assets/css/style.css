@@ -414,6 +414,7 @@ footer {
     background-color: #f2e2d2;
     background-size: contain;
     width: 100%;
+    padding: inherit;
 }
 .pick {
     border-radius: 8px;
@@ -713,10 +714,11 @@ h2 {
     #start {
         height: auto;
         margin-top: 90px;
+        overflow: hidden;
     }
     #connect-form {
         height: auto;
-        margin: auto;
+        margin: 0;
     }
     #pref {
         display: unset;
@@ -729,22 +731,22 @@ h2 {
         background-size: contain;
         width: 100%;
         height: 800px;
-        margin: 0;
+        margin: 5%;
         border: 2px solid transparent;
     }
     .schedule {
-        display: table-footer-group;
         background-position: center;
-        float: right;
+        margin: 5%;
         margin-bottom: 50px;
         margin-top: 20px;
+        padding: 10px;
     }
     /*------------------------------------------- Class options*/
     #board {
         height: auto;
-        margin: auto;
-        width: 90%;
-        float: none;
+        margin: 0;
+        width: 100%;
+        float: left;
         overflow: hidden;
     }
     .table {
@@ -826,7 +828,7 @@ h2 {
         border-radius: 80px 80px 80px 80px;
         padding: 30px;
         margin: 50px;
-        position: relative; 
+        position: inherit; 
         letter-spacing: 1px;
         margin-left: 25%;
     }
@@ -841,7 +843,7 @@ h2 {
         border-radius: 80px;
         margin: 50px;
         padding: 30px;
-        position: relative; 
+        position: inherit; 
         letter-spacing: 1px; 
         margin-left: 25%;
     }
@@ -856,7 +858,7 @@ h2 {
         border-radius: 80px;
         margin: 50px;
         padding: 30px;
-        position: relative;  
+        position: inherit;  
         letter-spacing: 1px; 
         margin-left: 25%;  
     }
@@ -868,6 +870,8 @@ h2 {
         background-color: #f2e2d2;
         color: black;
         display: block;
+        margin-top:20px;
+        margin: auto;
     }
 }
 
@@ -879,7 +883,7 @@ h2 {
         text-align: center;
     }
     #head {
-        font-size: 10px;
+        font-size: 15px;
         height: auto;
         line-height: 35px;
     }
@@ -1027,14 +1031,12 @@ h2 {
         height: 300px;
     }
     .schedule {
-        margin: auto;
         margin-top: 80px;
         margin-bottom: 80px;
         text-align: center;
         letter-spacing: 1px;
         background-color: #f2e2d2;
         width: 100%;
-        margin: 0;
     }
     .schedule h2 {
         margin: 20px;
@@ -1107,7 +1109,6 @@ h2 {
         border-radius: 80px 80px 80px 80px;
         padding: 30px;
         margin: 50px;
-        position: relative;
         letter-spacing: 1px;
     }
     #plan-box-two {
@@ -1121,7 +1122,6 @@ h2 {
         border-radius: 80px;
         margin: 50px;
         padding: 30px;
-        position: relative; 
         letter-spacing: 1px; 
     }
     #plan-box-three {
@@ -1134,8 +1134,7 @@ h2 {
         border: 2px solid transparent;
         border-radius: 80px;
         margin: 50px;
-        padding: 30px;
-        position: relative;  
+        padding: 30px; 
         letter-spacing: 1px; 
     }
     .select_plan {
@@ -1151,12 +1150,15 @@ h2 {
     .sign-in-section {
         font-size: 15px;
         padding: 10px;
+        line-height: 20px;
+        height:auto;
     }
     .sign-in-section h2 {
         font-size: 20px;
     }
     .signup-form {
         position:unset;
+        margin: 90px 10px 0 0;
     }
 }
 
