@@ -178,7 +178,7 @@ During the development the issues what needed to be fixed:
 
 [jigsaw css validator](https://jigsaw.w3.org/css-validator)
 
-![error](assets/images/style-error-messages)
+![error](assets/images/style-error-messages.png)
 
             -no error messages after correcting: changed value from auto to numbers
 
