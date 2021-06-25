@@ -137,6 +137,7 @@ h1 {
     padding-left: 30px;
     padding-bottom: 40px;
     text-align: left;
+    font-weight: bold;
 }
 #welcome p {
     text-align: center;
@@ -154,13 +155,13 @@ h1 {
     letter-spacing: 2px;
 }
 #welcome a {
-    color: black;
+    color: #bba077;
 }
 #aboutyoga {
     border: 2px solid transparent;
     overflow: hidden;
     display: inline-flex;
-    width: 90%
+    width: 90%;
     height: auto;
 }
 #practice, #about {
@@ -184,7 +185,7 @@ h1 {
     max-width: 90%;
 }
 #discover a {
-    color: black;
+    color: #bba077;
 }
 #classes h2, #classes h3 {
     letter-spacing: 4px;
@@ -310,20 +311,22 @@ h1 {
     background-size: cover;
     background-position: center;
     font-size: 30px;
-    line-height: 40px;
-    margin-bottom: 100px;    
+    line-height: 40px; 
+    overflow: hidden; 
 }
 .sign-in-section a {
-    color: black;
+    color: #f2e2d2;
 }
 .signup-form {
     clear: left;
-    margin: 150px 10% 0 0;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;    
-    position: absolute;
+    position: inherit;
     left: 10%;
     padding: 30px;
+    height:70%;
+    border-radius:80px;
+    margin: 180px 80px 80px;
 }
 .text-style {
     background-color: transparent;
@@ -657,7 +660,7 @@ h2 {
         border: 2px solid transparent;
         overflow: hidden;
         display: table;
-        width: 90%
+        width: 90%;
         height: auto;
     }
     #practice, #about {
