@@ -141,7 +141,7 @@ h1 {
 }
 #welcome p {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -205,7 +205,7 @@ h1 {
     padding-left: 30px;
 }
 #classes p {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -384,7 +384,7 @@ footer {
     margin: 0;
     width: 90%;
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
 }
 #first_step {
     height: auto;
@@ -409,7 +409,7 @@ footer {
     margin:auto;
     height: auto;
     color: black;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 70px;
 }
 #meditation, #pref {
@@ -438,6 +438,7 @@ footer {
     background-size: contain;
     width: 100%;
     padding: inherit;
+    margin: 50px;
 }
 .pick {
     border-radius: 8px;
@@ -504,13 +505,11 @@ h2 {
     color: #fff;
     cursor: pointer;
 }
-.day1, .day3, .day5 {
-    display: table-header-group;
+.day1, .day2, .day3 {
     margin: 30px;  
     height: auto; 
 }
-.day2, .day4, .day6 {
-    display: table-footer-group;
+.day4, .day5, .day6 {
     margin: 30px; 
     height: auto;  
 }
@@ -671,10 +670,12 @@ h2 {
         background: url(../images/yoga-practice1.jpg) no-repeat;
         background-position: center;
         width: 100%;
+        margin: 10px;
     }
     #about {
         width: 100%;
         display: table-header-group;
+        padding: 20px;
     }
     /*------------------------------------------- discover */
     #discover {
@@ -710,7 +711,7 @@ h2 {
         background-position: center;
         border-left: 2px solid transparent;
         width: 100%;
-        margin: 0;
+        margin: 10px;
     }
     #indoor {
         background-color: #fff;
@@ -726,7 +727,7 @@ h2 {
         background: url(../images/woman-on-mountain.jpg) no-repeat;
         background-position: center;
         width: 100%;
-        margin: 0;
+        margin: 10px;
     }
     #outdoor {
         background-color: #fff;
@@ -742,7 +743,7 @@ h2 {
         background: url(../images/yoga-mat.jpg) no-repeat;
         background-position: center;
         width: 100%;
-        margin: 0;
+        margin: 10px;
     }
     #yogamat {
         background-color: #fff;
