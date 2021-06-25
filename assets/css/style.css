@@ -140,7 +140,7 @@ h1 {
 }
 #welcome p {
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -149,12 +149,31 @@ h1 {
     text-align: left;
     padding-left: 30px; 
     padding-bottom: 30px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     letter-spacing: 2px;
 }
 #welcome a {
     color: black;
+}
+#aboutyoga {
+    border: 2px solid transparent;
+    overflow: hidden;
+    display: inline-flex;
+    width: 90%
+    height: auto;
+}
+#practice, #about {
+    height: 600px;
+    padding: 8px;
+}
+#practice {
+    background: url(../images/yoga-practice1.jpg) no-repeat;
+    background-position: center;
+    width: 100%;
+}
+#about {
+    width: 100%;
 }
 /*----------------------------------------------- discover */
 
@@ -185,13 +204,14 @@ h1 {
     padding-left: 30px;
 }
 #classes p {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
 #classes h4 {
     padding: 80px;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: bold;
 }
 #left {
     border: 2px solid transparent;
@@ -556,7 +576,7 @@ h2 {
     border-radius: 80px 80px 80px 80px;
     padding: 30px;
     margin: 50px;
-    position: relative; 
+    position: inherit; 
     float: left;    
     letter-spacing: 1px;
 }
@@ -571,7 +591,7 @@ h2 {
     border-radius: 80px;
     margin: 50px;
     padding: 30px;
-    position: relative; 
+    position: inherit; 
     float: left;
     letter-spacing: 1px; 
 }
@@ -586,7 +606,7 @@ h2 {
     border-radius: 80px;
     margin: 50px;
     padding: 30px;
-    position: relative; 
+    position: inherit; 
     float: left;  
     letter-spacing: 1px;   
 }
@@ -632,6 +652,26 @@ h2 {
     #welcome {
         margin: auto;
         height: auto;
+    }
+    #aboutyoga {
+        border: 2px solid transparent;
+        overflow: hidden;
+        display: table;
+        width: 90%
+        height: auto;
+    }
+    #practice, #about {
+        height: 600px;
+        padding: 8px;
+    }
+    #practice {
+        background: url(../images/yoga-practice1.jpg) no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+    #about {
+        width: 100%;
+        display: table-header-group;
     }
     /*------------------------------------------- discover */
     #discover {
@@ -730,7 +770,7 @@ h2 {
         background-position: center;
         background-size: contain;
         width: 100%;
-        height: 800px;
+        height: 700px;
         margin: 5%;
         border: 2px solid transparent;
     }
@@ -926,6 +966,9 @@ h2 {
         font-size: 15px;
         letter-spacing: 1px;
     }
+    #practice {
+        margin-top: 10px;
+    }
     /*------------------------------------------- discover */
     #discover {
         height: auto;
@@ -1031,8 +1074,8 @@ h2 {
         height: 300px;
     }
     .schedule {
-        margin-top: 80px;
-        margin-bottom: 80px;
+        margin-top: 0;
+        margin-bottom: 0;
         text-align: center;
         letter-spacing: 1px;
         background-color: #f2e2d2;
@@ -1066,6 +1109,7 @@ h2 {
     #board h2 {
         font-size: 20px;
         font-weight: bold;
+        padding: 20px;
     }
     #board h3, #board h4 {
         font-size: 15px;
@@ -1102,11 +1146,11 @@ h2 {
         font-size: 15px;
         color: #fff;
         width: 50%;
-        height: 400px;
+        height: 300px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
-        border-radius: 80px 80px 80px 80px;
+        border-radius: 80px;
         padding: 30px;
         margin: 50px;
         letter-spacing: 1px;
@@ -1115,7 +1159,7 @@ h2 {
         font-size: 15px;
         color: #fff;
         width: 50%;
-        height: 400px;
+        height: 300px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
@@ -1128,7 +1172,7 @@ h2 {
         font-size: 15px;
         color: #fff;
         width: 50%;
-        height: 400px;
+        height: 300px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
