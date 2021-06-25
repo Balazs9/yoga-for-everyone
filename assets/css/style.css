@@ -110,7 +110,7 @@ h1 {
     padding-left: 20px;
     background-color: rgba(90, 60, 60, 0.6);
     bottom: 300px;
-    right: 150px;
+    right: 290px;
     position: absolute;
 }
 
@@ -482,7 +482,7 @@ footer {
     background-size: cover;
     border: 2px solid transparent;
     margin: 80px;
-    padding: 20px;
+    padding: 10px;
     display: inline-flex;
 }
 h2 {
@@ -505,11 +505,11 @@ h2 {
     color: #fff;
     cursor: pointer;
 }
-.day1, .day2, .day3 {
+.day1, .day3, .day5 {
     margin: 30px;  
     height: auto; 
 }
-.day4, .day5, .day6 {
+.day2, .day4, .day6 {
     margin: 30px; 
     height: auto;  
 }
@@ -621,7 +621,7 @@ h2 {
     color: black;
     display: block;
     margin-top: inherit;
-    margin-left: inherit;
+    margin:auto;
 }
 .select_plan:hover {
     background-color: black;
@@ -637,7 +637,8 @@ h2 {
     }
     #cover-text {
         letter-spacing: 1px;
-        padding: 5px;
+        padding: 0;
+        right: 150px;
     }
     #cover-text h2 {
         font-size: 25px;
@@ -799,46 +800,58 @@ h2 {
         border: 2px solid transparent;
         margin: 80px;
         padding: 20px;
-        display: inline-flex;
         flex-direction: column;
         justify-content: center;
+        display: inline-flex;
+    }
+    .day1, .day3, .day5 {
+        margin: 20px;
+    }
+    .day2, .day4, .day6 {
+        margin: 20px;
     }
     .day1 {
+        font-size: 25px;
         border-radius: 50px;
         border:2px solid transparent;
         background-color: tomato;
         width: auto;
     }
     .day2 {
+        font-size: 25px;
         border-radius: 50px;
         border: 2px solid transparent;
         background-color: yellow;
         width: auto;
-    }
+        }
     .day3 {
+        font-size: 25px;
         border-radius: 50px;
         border: 2px solid transparent;
         background-color: #ffd2fc;
         width: auto;
-    }
+        }
     .day4 {
+        font-size: 25px;
         border-radius: 50px;
         border: 2px solid transparent;
         background-color: #47bfff;
         width: auto;
-    }
+        }
     .day5 {
+        font-size: 25px;
         border-radius: 50px;
         border: 2px solid transparent;
         background-color: #2bdeab;
         width: auto;
     }
     .day6 {
+        font-size: 25px;
         border-radius: 50px;
         border: 2px solid transparent;
         background-color: #d496a7;
         width: auto;
-    }
+        }
     
     /*------------------------------------------- Plan and pricing */
     #plan {
@@ -865,13 +878,13 @@ h2 {
         font-size: 30px;
         color: #fff;
         width: 45%;
-        height: 400px;
+        height: 450px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
         border-radius: 80px 80px 80px 80px;
-        padding: 30px;
-        margin: 50px;
+        padding: 15px;
+        margin: 30px;
         position: inherit; 
         letter-spacing: 1px;
         margin-left: 25%;
@@ -880,13 +893,13 @@ h2 {
         font-size: 30px;
         color: #fff;
         width: 45%;
-        height: 400px;
+        height: 450px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
         border-radius: 80px;
-        margin: 50px;
-        padding: 30px;
+        margin: 30px;
+        padding: 15px;
         position: inherit; 
         letter-spacing: 1px; 
         margin-left: 25%;
@@ -895,13 +908,13 @@ h2 {
         font-size: 30px;
         color: #fff;
         width: 45%;
-        height: 400px;
+        height: 450px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
         border-radius: 80px;
-        margin: 50px;
-        padding: 30px;
+        margin: 30px;
+        padding: 15px;
         position: inherit;  
         letter-spacing: 1px; 
         margin-left: 25%;  
@@ -1131,8 +1144,13 @@ h2 {
         justify-content: center;
         margin: 0;
     }
-    .table div {
-        width: 80%;
+    .day1, .day2, .day3 {
+        display: block;
+        height: auto;
+    }
+    .day4, .day5, .day6 {
+        display: block;
+        height: auto;
     }
     #plan {
         height: auto;
@@ -1147,10 +1165,10 @@ h2 {
         display: unset;
     }
     #plan-box {
-        font-size: 15px;
+        font-size: 13px;
         color: #fff;
         width: 50%;
-        height: 300px;
+        height: 350px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
@@ -1160,10 +1178,10 @@ h2 {
         letter-spacing: 1px;
     }
     #plan-box-two {
-        font-size: 15px;
+        font-size: 13px;
         color: #fff;
         width: 50%;
-        height: 300px;
+        height: 350px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
@@ -1173,10 +1191,10 @@ h2 {
         letter-spacing: 1px; 
     }
     #plan-box-three {
-        font-size: 15px;
+        font-size: 13px;
         color: #fff;
         width: 50%;
-        height: 300px;
+        height: 350px;
         background-color: rgba(60, 60, 60, 0.6);
         text-align: center;
         border: 2px solid transparent;
@@ -1197,8 +1215,8 @@ h2 {
     /*------------------------------------------- Sign up section*/
     .sign-in-section {
         font-size: 15px;
-        padding: 10px;
-        line-height: 20px;
+        padding: 16px;
+        line-height: 18px;
         height:auto;
     }
     .sign-in-section h2 {
@@ -1206,7 +1224,8 @@ h2 {
     }
     .signup-form {
         position:unset;
-        margin: 90px 10px 0 0;
+        margin: 100px 10px 0 0;
+        letter-spacing: 2px;
     }
 }
 
