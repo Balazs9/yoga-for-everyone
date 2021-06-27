@@ -176,6 +176,9 @@ h1 {
 #about {
     width: 100%;
 }
+#about p {
+    padding-right: 50px;
+}
 /*----------------------------------------------- discover */
 
 #discover {
@@ -620,8 +623,8 @@ h2 {
     background-color: #f2e2d2;
     color: black;
     display: block;
-    margin-top: inherit;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 .select_plan:hover {
     background-color: black;
@@ -660,7 +663,7 @@ h2 {
         border: 2px solid transparent;
         overflow: hidden;
         display: table;
-        width: 90%;
+        width: 100%;
         height: auto;
     }
     #practice, #about {
@@ -677,6 +680,9 @@ h2 {
         width: 100%;
         display: table-header-group;
         padding: 20px;
+    }
+    #about p {
+        padding-bottom: 20px;
     }
     /*------------------------------------------- discover */
     #discover {
@@ -985,6 +991,9 @@ h2 {
     }
     #practice {
         margin-top: 10px;
+    }
+    #about p {
+        padding-right: 0;
     }
     /*------------------------------------------- discover */
     #discover {
