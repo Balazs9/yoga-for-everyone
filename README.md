@@ -10,6 +10,18 @@
     
     - Creator goals
 
+    - Development plans:
+
+    I. Strategy
+
+    II. Scope
+
+    III. Structure
+
+    IV. Skelton
+
+    V. Surface
+
 3. Features
 
 4. Issues
@@ -63,6 +75,27 @@ Yoga for everyone is a website targeting people with all different skill levels 
 
 3. presentation of images on a wide space to introduce and navigate the client
 
+### Development plans:
+
+IV. Skelton:
+
+
+
+V. Surface:
+
+    Colors: 
+
+    - The main colors used for the website are almond, beige, black and white, with colors of rainbow in one of the section of the website.
+
+    Typography:
+
+    - The Roboto and Lato pairing is used on the website with sans serif.
+
+    Images: 
+
+    - Pixabay [https://pixabay.com/] where the accurate pictures found, all selected carefully with the goal in mind to represent a proffesional yoga website.
+
+I. Strategy:
 
 ## Features
 
