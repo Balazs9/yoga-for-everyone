@@ -176,19 +176,21 @@ V. Surface:
 
     II. Home page:
 
-    ![nav bar](assets/images/Nav-bar.png)
+    ![nav bar](assets/images/home.png)
 
-    ![about yoga](assets/images/About-yoga.png)
+    ![about yoga](assets/images/about-yoga.png)
 
     ![discover](assets/images/discover.png)
 
     III. Connect page:
 
-    ![connect](assets/images/connect.png)
+    ![connect](assets/images/preferences-class.png)
+
+    ![planning](assets/images/plan-pricing.png)
 
     IV. Sign in page:
 
-    ![sign-in](assets/images/sign-in.png)
+    ![sign-in](assets/images/sign-up.png)
 
 2. Features to implement: 
 
