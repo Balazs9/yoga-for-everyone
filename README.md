@@ -46,25 +46,25 @@ Yoga for everyone is a website targeting people with all different skill levels 
 
 1. First time visitor: 
 
-    - easily understandable site and porpuse of the business
+    - easily understandable site and purpose of the business
 
     - easy navigation
 
     - beginners who want to try and learn yoga
 
-    - anyone who already practicing, but would like to improve skills
+    - anyone who already tried Yoga, but would like to improve their skills
 
     - easy registrations and payment options
 
 2. Returning user:
 
-    - yoga is part of their daily routine and they want to continue
+    - yoga is part of their life and they want to continue
 
-    - they are happy with the group or with the instructor
+    - they are happy with the group, with the instructor, and find the perfect schedule 
 
     - correct pricing
 
-    - easy well managed, well designed website
+    - well managed, well designed website, where easy to book the classes and learn about them
 
 
 ### Creators goal:
@@ -113,9 +113,9 @@ II. Scope:
     
         The client will be looking: 
 
-            - introduction to yoga
+            - introduction to yoga, guide to the world of yoga
 
-            - explanations of the classes
+            - explanations of the classes, profiles of the teachers
 
             - wide selection of training
 
@@ -195,6 +195,8 @@ V. Surface:
     - make a Log in page
 
     - terms and conditions page
+
+    - introduce the bootcamps plan and pricing
 
 
 ## Issues

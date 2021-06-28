@@ -486,7 +486,7 @@ footer {
     border: 2px solid transparent;
     margin: 80px;
     padding: 10px;
-    display: inline-flex;
+    display: inline-block;
 }
 h2 {
     font-size: 40px;
@@ -509,48 +509,58 @@ h2 {
     cursor: pointer;
 }
 .day1, .day3, .day5 {
-    margin: 30px;  
+    margin-left:auto;
+    margin-right:auto;
     height: auto; 
+    margin: 20px;
 }
 .day2, .day4, .day6 {
-    margin: 30px; 
+    margin-left:auto;
+    margin-right:auto;
     height: auto;  
+    margin: 20px;
 }
 .day1 {
     border-radius: 50px;
     border:2px solid transparent;
     background-color: tomato;
     width: 30%;
+    display:inline-block;
 }
 .day2 {
     border-radius: 50px;
     border: 2px solid transparent;
     background-color: yellow;
     width: 30%;
+    display:inline-block;
 }
 .day3 {
     border-radius: 50px;
     border: 2px solid transparent;
     background-color: #ffd2fc;
     width: 30%;
+    display: inline-block;
 }
 .day4 {
     border-radius: 50px;
     border: 2px solid transparent;
     background-color: #47bfff;
     width: 30%;
+    display: inline-block;
 }
 .day5 {
     border-radius: 50px;
     border: 2px solid transparent;
     background-color: #2bdeab;
     width: 30%;
+    display: inline-block;
 }
 .day6 {
     border-radius: 50px;
     border: 2px solid transparent;
     background-color: #d496a7;
     width: 30%;
+    display: inline-block;
 }
 #plan {
     height: auto;
