@@ -2,7 +2,11 @@
 
 # Contents:
 
+![landing](assets/images/screens.png)
+
 1. Introduction
+
+[view the live project here](https://balazs9.github.io/yoga-for-everyone/)
 
 2. UX:
 
