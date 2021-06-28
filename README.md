@@ -109,6 +109,27 @@ I. strategy:
 
 II. Scope:
 
+   1. Content requirements:
+    
+        The client will be looking: 
+
+            - introduction to yoga
+
+            - explanations of the classes
+
+            - wide selection of training
+
+            - reasanable pricing
+
+    2. Functionality requirements:
+
+            - easy navigation through the pages on the site to find the information what they are looking for
+
+            - choose between plans and pricing what is working with their time schedule
+
+            -find links to external sites to learn more about yoga
+
+
 
 III. Structure:
 
@@ -142,7 +163,6 @@ V. Surface:
 
     - Pixabay [https://pixabay.com/] where the accurate pictures found, all selected carefully with the goal in mind to represent a proffesional yoga website.
 
-I. Strategy:
 
 ## Features
 
