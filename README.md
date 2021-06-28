@@ -77,8 +77,55 @@ Yoga for everyone is a website targeting people with all different skill levels 
 
 ### Development plans:
 
+I. strategy: 
+
+    The focus of the website:
+
+        Target audience:
+
+        - Beginners in yoga
+
+        - Experienced clients who new to our site
+
+        - Returning clients
+
+        Demographics: 
+
+        - any age who is able to practice yoga
+
+        Psyhographics:
+
+        - yoga lifestyle
+
+        - people who want to join a yoga class
+
+        - train together with others with the same interests
+
+        - want to get a fit body and mind
+
+      Trade-off between importance and viability:
+
+![trade](assets/images/trade-off.png)  
+
+II. Scope:
+
+
+III. Structure:
+
+The information of the website was organized in a tree structure, to ensure the clients can navigate easily through the sites.
+
+![layout](assets/images/website-layout.PNG)
+
 IV. Skelton:
 
+  1. Figma wireframe
+
+[figma](https://www.figma.com/proto/riVSjbwqPgF0yEbB2yOyYp/Untitled?node-id=2%3A0&scaling=min-zoom)
+
+
+2. Balsamiq Wireframes for three different screen type
+
+![balsamiq wireframes](assets/images/yoga-for-everyone.png)
 
 
 V. Surface:
@@ -162,13 +209,11 @@ During the development the issues what needed to be fixed:
 
     5. Wireframe:
 
-        I. Figma wireframe
+        I. Figma wireframe for the dektop screen
 
-[figma](https://www.figma.com/proto/riVSjbwqPgF0yEbB2yOyYp/Untitled?node-id=2%3A0&scaling=min-zoom)
 
         II. Balsamiq Wireframes for three different screen type
 
-![balsamiq wireframes](assets/images/yoga-for-everyone.png)
 
     6. Coolors:
         Find colors from a wide selection
