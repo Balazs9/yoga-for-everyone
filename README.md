@@ -6,7 +6,7 @@
 
 1. Introduction
 
-[view the live project here](https://balazs9.github.io/yoga-for-everyone/)
+[view the live project](https://balazs9.github.io/yoga-for-everyone/)
 
 2. UX:
 
@@ -180,6 +180,14 @@ V. Surface:
 
     II. Home page:
 
+    The main page is divided to three section which contains the following: 
+    
+    - hero image
+
+    - welcome: introduction to the website and also to yoga
+
+    - discover: how to start practicing yoga and what kind of classes the website is offering
+
     ![nav bar](assets/images/home.png)
 
     ![about yoga](assets/images/about-yoga.png)
@@ -187,6 +195,14 @@ V. Surface:
     ![discover](assets/images/discover.png)
 
     III. Connect page:
+
+    Contains three section:
+
+    - preferences: the clients can pick what yoga styles they like, what is there skill level and choose from a time frame
+
+    - class options: it is a schedule where the times and classes are visible to the clients with a hover on which is highlithing what the cursor pointing
+
+    - plan and pricing: show the clients three different pricing option 
 
     ![connect](assets/images/preferences-class.png)
 
@@ -204,14 +220,16 @@ V. Surface:
 
     - introduce the bootcamps plan and pricing
 
+    - a select button for the class option section
+
 
 ## Issues
 
 During the development the issues what needed to be fixed:
 
-1. Align 2 divs side by side: searching for the problem on [https://stackoverflow.com/questions/36152145/align-2-divs-side-by-side-in-a-parent] and there found similar problem with a help, what the developer could use as a navigator to fix the issue.
+1. Align 2 divs side by side: the issue was to put the divs next to each other, but searching for the problem on [https://stackoverflow.com/questions/36152145/align-2-divs-side-by-side-in-a-parent] and there found similar problem with a help, what the developer could use as a navigator to fix the issue.
 
-2. Make the divs screen responsive: found a similar problem on [https://stackoverflow.com/questions/12645366/css-responsive-center-div] and with the help of this was able to find the error what caused the issue.
+2. Make the divs screen responsive: the issue was the divs did not go well when the screen size was changing, tried many options and than looking for stackoverflow where found a similar problem [https://stackoverflow.com/questions/12645366/css-responsive-center-div] and with the help of this was able to find the error what caused the issue.
 
 ## Technologies:
 
@@ -247,6 +265,8 @@ During the development the issues what needed to be fixed:
         Find colors from a wide selection
         [coolors](https://coolors.co/d496a7-9d695a-78e0dc-8eedf7-a1cdf1)
 
+
+    7. Am I responsive: to see screen responsive design
 
 ## Testing
 
@@ -293,6 +313,18 @@ During the development the issues what needed to be fixed:
     Used Am I responsive site for test
 
 [responsiveness](http://ami.responsivedesign.is/#)
+
+
+
+## Deploying the project
+
+- The project was developed and astored in Git.
+
+- The source file was regulary pushed to repository [Github](https://github.com/Balazs9/yoga-for-everyone)
+
+- Published from Github repository to Github pages, which is in settings where need to scroll down to Github pages section, here look for source where is a label called none. Change none to master branch and save it.
+
+- Than the page will automatically refresh and the deployed link will be available.
 
 ## Credits
 

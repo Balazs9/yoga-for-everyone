@@ -73,6 +73,9 @@ h1 {
 #cover-text, #cover-text h2 {
     color: #fff;
 }
+#cover-text h2 {
+    font-size: 30px;
+}
 #hero-image {
     margin-top: 115px;
     clear: left;
@@ -579,7 +582,7 @@ h2 {
     padding: 80px;
 }
 #plan-box {
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     width: 33%;
     height: 400px;
@@ -594,7 +597,7 @@ h2 {
     letter-spacing: 1px;
 }
 #plan-box-two {
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     width: 33%;
     height: 400px;
@@ -609,7 +612,7 @@ h2 {
     letter-spacing: 1px; 
 }
 #plan-box-three {
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     width: 33%;
     height: 400px;
@@ -889,7 +892,6 @@ h2 {
         padding: 80px;
     }
     #plan-box {
-        font-size: 30px;
         color: #fff;
         width: 45%;
         height: 450px;
@@ -904,7 +906,6 @@ h2 {
         margin-left: 25%;
     }
     #plan-box-two {
-        font-size: 30px;
         color: #fff;
         width: 45%;
         height: 450px;
@@ -919,7 +920,6 @@ h2 {
         margin-left: 25%;
     }
     #plan-box-three {
-        font-size: 30px;
         color: #fff;
         width: 45%;
         height: 450px;
