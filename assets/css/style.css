@@ -1165,7 +1165,7 @@ h2 {
         background-size: cover;
         border: 2px solid transparent;
         margin-left: 0;
-        padding: 20px;
+        padding: 10px;
         display: inline-flex;
         flex-direction: column;
         justify-content: center;
@@ -1238,6 +1238,7 @@ h2 {
         color: black;
         display: block;
         margin: auto;
+        font-size: 10px;
     }
     /*------------------------------------------- Sign up section*/
     .sign-in-section {
