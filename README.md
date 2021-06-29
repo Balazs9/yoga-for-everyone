@@ -288,6 +288,12 @@ During the development the issues what needed to be fixed:
 
             -no error messages after correcting: changed value from auto to numbers
 
+    3. Screen responsive test: 
+
+    Used Am I responsive site for test
+
+[responsiveness](http://ami.responsivedesign.is/#)
+
 ## Credits
 
 1. Pixabay: for the photos what was used for the website

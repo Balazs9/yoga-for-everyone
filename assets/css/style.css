@@ -98,11 +98,11 @@ h1 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 120%;
     font-family: roboto, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    width: 400px;
+    letter-spacing: 2px;
+    width: 300px;
     height: auto;
     border-radius: 50px;
     text-align: center;
@@ -141,7 +141,7 @@ h1 {
 }
 #welcome p {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
