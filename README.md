@@ -2,7 +2,7 @@
 
 # Contents:
 
-![landing](assets/images/screens.png)
+![landing](assets/images/responsive-screen.png)
 
 1. Introduction
 
