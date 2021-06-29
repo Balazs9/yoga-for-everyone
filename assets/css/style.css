@@ -98,7 +98,7 @@ h1 {
 }
 
 #cover-text {
-    font-size: 120%;
+    font-size: 100%;
     font-family: roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -208,7 +208,7 @@ h1 {
     padding-left: 30px;
 }
 #classes p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -976,7 +976,7 @@ h2 {
         font-family: roboto, sans-serif;
         text-transform: uppercase;
         letter-spacing: 1px;
-        width: 400px;
+        width: 300px;
         height: auto;
         padding-left: 20px;
         background-color: rgba(90, 60, 60, 0.6);
@@ -1081,7 +1081,7 @@ h2 {
     #start {
         height: auto;
         width:100%;
-        font-size: 10px;
+        font-size: 15px;
         padding: 10px;
         margin: 0;
     }
