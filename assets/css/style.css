@@ -498,7 +498,7 @@ h2 {
     padding: 10px;
 }
 .table h4 {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin: 10px;
 }
@@ -822,17 +822,20 @@ h2 {
         background-position: center;
         background-size: cover;
         border: 2px solid transparent;
-        margin: 80px;
-        padding: 20px;
+        margin: 60px;
+        padding: 15px;
         flex-direction: column;
         justify-content: center;
         display: inline-flex;
     }
+    .table h4 {
+        font-size: 18px;
+    }
     .day1, .day3, .day5 {
-        margin: 20px;
+        margin: 15px;
     }
     .day2, .day4, .day6 {
-        margin: 20px;
+        margin: 15px;
     }
     .day1 {
         font-size: 25px;
