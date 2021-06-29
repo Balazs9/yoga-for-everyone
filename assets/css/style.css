@@ -987,6 +987,7 @@ h2 {
         background-color: rgba(90, 60, 60, 0.6);
         bottom: 300px;
         position: absolute;
+        right: 19px;
     }
     #cover-text h2 {
         padding: 10px;
